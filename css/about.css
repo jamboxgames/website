@@ -1,0 +1,113 @@
+.ia-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+       -moz-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.ia-wrapper > div {
+    width: 26%;
+    -webkit-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.ia-wrapper > div:hover {
+    opacity: .8;
+}
+
+.ia-wrapper .ia-card {
+    -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 2rem 1.5rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: .8rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ia-wrapper .ia-card .ia-img {
+    width: 160px;
+    height: 160px;
+}
+
+.advisor,
+.investor {
+    position: relative;
+}
+
+.investor::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    background: #EEF8FC;
+}
+
+.advisor::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    background: #FEF3EF;
+}
+
+@media only screen and (max-width: 920px) {
+    .ia-wrapper > div  {
+        width: 45%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ia-wrapper > div:nth-child(3) {
+        margin-top: 30px;
+    }
+
+    .investor::after,
+    .advisor::after {
+        height: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ia-wrapper > div:nth-child(2) {
+        margin-top: 30px;
+    }
+    .ia-wrapper > div {
+        width: 100%;
+    }
+}
