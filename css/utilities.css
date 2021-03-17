@@ -416,6 +416,18 @@ header {
     position: relative;
 }
 
+
+.blog-header{
+    height: 40vh;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: #F6F6F6;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+    position: relative;
+}
+
 header .container {
     width: 100%;
 }
