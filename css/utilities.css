@@ -447,6 +447,22 @@ header .header-inner {
     height: 100%;
 }
 
+.team-header{
+    background-image: url(/img/team.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: 70vh;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.header-inner.team{
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .stickyBtn {
     background: #E16E3F;
     color: #fff;
@@ -651,6 +667,12 @@ footer {
     .stickyBtn {
         padding: 0 1rem;
     }
+
+    
+    .team-header{
+        height: 30vh;
+        background-size: cover;
+    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -666,6 +688,10 @@ footer {
 
     footer .footer-inner>div:first-child {
         margin-bottom: 1rem;
+    }
+
+    .team-header{
+        display: none;
     }
 }
 
