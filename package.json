@@ -1,0 +1,24 @@
+{
+  "name": "jambox-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "clear;rm -rf _site/;ELEVENTY_ENV=development npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamboxgames/website.git"
+  },
+  "keywords": [],
+  "author": "ravi vyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamboxgames/website/issues"
+  },
+  "homepage": "https://github.com/jamboxgames/website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

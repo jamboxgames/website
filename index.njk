@@ -1,104 +1,22 @@
+---
+title: Home
+keywords: Jambox, Games, Jambox games, home
+description: Power-up your mobile games
+---
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Power-up your mobile games">
-    <meta name="keywords" content="Jambox, Games, Jambox games, home">
-
-    <title>Jambox Games</title>
+    {% include 'partials/header.njk' %}
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
 </head>
 
 <body>
     <div class="body-inner">
-        <div class="sticky-btn">
-            <a href="publish.html">
-                <button class="s-r stickyBtn">
-                    <div class="text">Publish Your Game</div>
-                    <img src="img/stickyBtn.png" alt="Jambox">
-                </button>
-            </a>
-        </div>
-        <nav id="visible" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="index.html">
-                        <img src="img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="links s-r">
-                        <p><a href="about.html">About</a></p>
-                        <p><a href="games.html">Games</a></p>
-                        <p><a href="team.html">Team</a></p>
-                        <!-- <p><a href="blog.html">Blog</a></p> -->
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav id="hidden" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="index.html">
-                        <img src="img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="links s-r">
-                        <p><a href="about.html">About</a></p>
-                        <p><a href="games.html">Games</a></p>
-                        <p><a href="team.html">Team</a></p>
-                        <!-- <p><a href="blog.html">Blog</a></p> -->
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="visible">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                    <p><a href="about.html">About</a></p>
-                    <p><a href="games.html">Games</a></p>
-                    <p><a href="team.html">Team</a></p>
-                    <!-- <p><a href="blog.html">Blog</a></p> -->
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="hidden">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                    <p><a href="about.html">About</a></p>
-                    <p><a href="games.html">Games</a></p>
-                    <p><a href="team.html">Team</a></p>
-                    <!-- <p><a href="blog.html">Blog</a></p> -->
-                </div>
-            </div>
-        </nav>
+       {% include 'partials/stickybtn.njk' %}
+        {% include 'partials/nav.njk' %}
         <header>
             <div class="container">
                 <div class="header-inner">
@@ -175,7 +93,7 @@
                                 <li class="glide__slide">
                                     <div class="blog">
                                         <div class="blog-img">
-                                            <img src="img/blog.png" alt="Jambox">
+                                            <img src="/img/blog.png" alt="Jambox">
                                         </div>
                                         <div class="blog-text">
                                             <h3 class=" w-r">Launch Post</h3>
@@ -188,7 +106,7 @@
                                  <li class="glide__slide">
                                     <div class="blog">
                                         <div class="blog-img">
-                                            <img src="img/blog.png" alt="Jambox">
+                                            <img src="/img/blog.png" alt="Jambox">
                                         </div>
                                         <div class="blog-text">
                                             <h3 class=" w-r">Second Post</h3>
@@ -201,7 +119,7 @@
                                  <li class="glide__slide">
                                     <div class="blog">
                                         <div class="blog-img">
-                                            <img src="img/blog.png" alt="Jambox">
+                                            <img src="/img/blog.png" alt="Jambox">
                                         </div>
                                         <div class="blog-text">
                                             <h3 class=" w-r">Third Post</h3>
@@ -215,9 +133,9 @@
                         </div>
                         <div class="glide__arrows" data-glide-el="controls">
                             <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                        <img src="img/anglel.png" alt="angle">
+                        <img src="/img/anglel.png" alt="angle">
                     </button>
-                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="img/angler.png" alt="angle"></button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="/img/angler.png" alt="angle"></button>
                         </div>
                     </div>
                 </div>
@@ -247,54 +165,7 @@
             </div>
         </section> -->
 
-        <div class="footer-angle"></div>
-        <footer>
-            <div class="container">
-                <div class="footer-inner">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Jambox Games">
-                        </a>
-                    </div>
-                    <div>
-                        <div class="s-r">
-                            <a href="#">
-                                <img src="img/fb.png" alt="facebook">
-                            </a>
-                            <a href="about.html" class="mt-05">
-                                <p>About</p>
-                            </a>
-                        </div>
- <!-- <div class="s-r">
-                            <a href="#">
-                                <img src="img/insta.png" alt="Instagram">
-                            </a>
-                            <a href="blog.html" class="mt-05">
-                                <p>Blog</p>
-                            </a>
-                        </div> -->
-                        <div class="s-r">
-                            <a href="#">
-                                <img src="img/twitter.png" alt="twitter">
-                            </a>
-                            <a href="team.html" class="mt-05">
-                                <p>Team</p>
-                            </a>
-                        </div>
-                        <div class="s-r">
-                            <a href="#">
-                                <img src="img/ln.png" alt="Linkedin">
-                            </a>
-                            <a href="games.html" class="mt-05">
-                                <p>Games</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <p class="copyright t-c s-s c-g light mt-2">© Jambox Games 2021</p>
-            </div>
-        </footer>
-    </div>
+        {% include 'partials/footer.njk' %}
 
     <script>
         
@@ -347,7 +218,7 @@ AOS.init({
         video.play();
         window.addEventListener('load', () => {
             var tag = document.createElement("script");
-            tag.src = "./js/app.js";
+            tag.src = "/js/app.js";
             document.getElementsByTagName("head")[0].appendChild(tag);
         })
     </script>

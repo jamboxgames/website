@@ -1,106 +1,23 @@
+---
+title: About
+keywords: Jambox, Games, Jambox games, about
+description: A team of gaming and ad tech enthusiast</span> have come together to build the next generation competitive game publishing platform
+---
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="A team of gaming and ad tech enthusiast</span> have come together to build the next generation competitive game publishing platform">
-    <meta name="keywords" content="Jambox, Games, Jambox games, about">
-    <title>Jambox Games</title>
+    {% include 'partials/header.njk' %}
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/aos.css">
 </head>
 
 <body>
 
     <div class="body-inner">
-        <div class="sticky-btn">
-            <a href="publish.html">
-                <button class="s-r stickyBtn">
-                    <div class="text">Publish Your Game</div>
-                    <img src="img/stickyBtn.png" alt="Jambox">
-                </button>
-            </a>
-        </div>
-        <nav id="visible" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="index.html">
-                        <img src="img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="s-r links">
-                        <p><a class="bold" href="about.html">About</a></p>
-                        <p><a href="games.html">Games</a></p>
-                        <p><a href="team.html">Team</a></p>
-                        <!-- <p><a href="blog.html">Blog</a></p> -->
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav id="hidden" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="index.html">
-                        <img src="img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="s-r links">
-                        <p><a class="bold" href="about.html">About</a></p>
-                        <p><a href="games.html">Games</a></p>
-                        <p><a href="team.html">Team</a></p>
-                        <!-- <p><a href="blog.html">Blog</a></p> -->
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="visible">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                    <p><a class="bold" href="about.html">About</a></p>
-                    <p><a href="games.html">Games</a></p>
-                    <p><a href="team.html">Team</a></p>
-                    <!-- <p><a href="blog.html">Blog</a></p> -->
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="hidden">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                    <p><a class="bold" href="about.html">About</a></p>
-                    <p><a href="games.html">Games</a></p>
-                    <p><a href="team.html">Team</a></p>
-                    <!-- <p><a href="blog.html">Blog</a></p> -->
-                </div>
-            </div>
-        </nav>
+       {% include 'partials/stickybtn.njk' %}
+       {% include 'partials/nav.njk' %}
         <header>
             <div class="container">
                 <div class="header-inner">
@@ -135,10 +52,10 @@
                         <a href="link.com">
                             <div data-aos="fade-up" class="ia-card">
                                 <div class="ia-img m-a">
-                                    <img src="img/investor.jpeg" alt="investor">
+                                    <img src="/img/investor.jpeg" alt="investor">
                                 </div>
                                 <div>
-                                    <p class="s-xl">Company Name
+                                    <p class="s-xl">Investor Name
                                     </p>
                                     <div class="line my-05 line-s bg-o m-a"></div>
                                 </div>
@@ -151,10 +68,10 @@
                         <a href="link.com">
                             <div data-aos="fade-up" class="ia-card">
                                 <div class="ia-img m-a">
-                                    <img src="img/investor.jpeg" alt="investor">
+                                    <img src="/img/investor.jpeg" alt="investor">
                                 </div>
                                 <div>
-                                    <p class="s-xl">Company Name
+                                    <p class="s-xl">Investor Name
                                     </p>
                                     <div class="line my-05 line-s bg-o m-a"></div>
                                 </div>
@@ -167,10 +84,10 @@
                         <a href="link.com">
                             <div data-aos="fade-up" class="ia-card">
                                 <div class="ia-img m-a">
-                                    <img src="img/investor.jpeg" alt="investor">
+                                    <img src="/img/investor.jpeg" alt="investor">
                                 </div>
                                 <div>
-                                    <p class="s-xl">Company Name
+                                    <p class="s-xl">Investor Name
                                     </p>
                                     <div class="line my-05 line-s bg-o m-a"></div>
                                 </div>
@@ -191,7 +108,7 @@
                         <a target="_blank" href="https://www.linkedin.com/in/chesternwj/">
                             <div data-aos="fade-up" class="ia-card">
                                 <div class="ia-img m-a">
-                                    <img src="img/advisor1.jpg" alt="advisor">
+                                    <img src="/img/advisor1.jpg" alt="advisor">
                                 </div>
 
                                 <div>
@@ -212,7 +129,7 @@
                         <a target="_blank" href="https://www.linkedin.com/in/aaronchanjl/">
                             <div data-aos="fade-up" class="ia-card">
                                 <div class="ia-img m-a">
-                                    <img src="img/advisor2.jpg" alt="advisor">
+                                    <img src="/img/advisor2.jpg" alt="advisor">
                                 </div>
 
                                 <div>
@@ -239,29 +156,29 @@
                 <div class="footer-inner">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="img/logo.svg" alt="Jambox Games">
+                            <img src="/img/logo.svg" alt="Jambox Games">
                         </a>
                     </div>
                     <div>
                         <div class="s-r">
                             <a href="#">
-                                <img src="img/fb.png" alt="facebook">
+                                <img src="/img/fb.png" alt="facebook">
                             </a>
                             <a href="about.html" class="mt-05">
                                 <p>About</p>
                             </a>
                         </div>
-                        <!-- <div class="s-r">
+                        <div class="s-r">
                             <a href="#">
-                                <img src="img/insta.png" alt="Instagram">
+                                <img src="/img/insta.png" alt="Instagram">
                             </a>
                             <a href="blog.html" class="mt-05">
                                 <p>Blog</p>
                             </a>
-                        </div> -->
+                        </div>
                         <div class="s-r">
                             <a href="#">
-                                <img src="img/twitter.png" alt="twitter">
+                                <img src="/img/twitter.png" alt="twitter">
                             </a>
                             <a href="team.html" class="mt-05">
                                 <p>Team</p>
@@ -269,7 +186,7 @@
                         </div>
                         <div class="s-r">
                             <a href="#">
-                                <img src="img/ln.png" alt="Linkedin">
+                                <img src="/img/ln.png" alt="Linkedin">
                             </a>
                             <a href="games.html" class="mt-05">
                                 <p>Games</p>
@@ -315,7 +232,7 @@
         })
         window.addEventListener('load', () => {
             let tag3 = document.createElement("script");
-            tag3.src = "./js/about.js";
+            tag3.src = "/js/about.js";
             document.getElementsByTagName("head")[0].appendChild(tag3);
         })
     </script>

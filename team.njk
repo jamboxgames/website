@@ -1,0 +1,176 @@
+---
+title: Team
+keywords: Jambox, Games, Jambox games, team
+description: A passionate team of gaming and tech enthusiasts have come together to help developers succeed at a global level
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>    
+{% include 'partials/header.njk' %}
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/team.css">
+    <link rel="stylesheet" href="/css/aos.css">
+</head>
+
+<body>
+    <div class="body-inner">
+       {% include 'partials/stickybtn.njk' %}
+       {% include 'partials/nav.njk' %}
+
+        <div class="team-header">
+            <div class="container">
+                
+            
+            </div>
+        </div>
+
+        <section class="team">
+            <div class="container">
+                    <div class="header-inner team">
+                        <h1 data-aos="fade-right"><span class="c-b">Team</span> <span class="c-o">Awesome</span></h1>
+                        <p data-aos="fade-up" data-aos-delay="100" class="s-xl mt-2"><span class="c-o">A passionate team of gaming and tech enthusiasts</span> have come together to help developers <span class="c-b">succeed at a global stage</span>
+                        </p>
+                    </div>
+                <div class="team-wrapper">
+                    <div class="team">
+                        <div class="team-img">
+                            <img src="/img/team1.jpg" alt="team">
+                        </div>
+                        <div class="team-text">
+                            <p class="s-r light">Founder & CEO</p>
+                            <div class="line mt-0 line-s"></div>
+                            <p class="s-xl">Vikas Gulati</p>
+                        </div>
+                        <div class="team-bio">
+
+                            <p class="light">Business Leader & Senior Management Executive. Over 2 decades in Adtech, Mobile Gaming, Business Development, Partnerships and Start Ups. Ex AdColony & Opera</p>
+                        </div>
+                        <div class="linkdin">
+                            <a target="_blank" href="https://www.linkedin.com/in/vikasgulati/">
+                                <img src="/img/lb3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img">
+                            <img src="/img/team2.jpg" alt="team">
+                        </div>
+                        <div class="team-text">
+                            <p class="s-r light">Head of Product</p>
+                            <div class="line mt-0 line-s"></div>
+                            <p class="s-xl">Ravi Vyas</p>
+                        </div>
+                        <div class="team-bio">
+
+                            <p class="light">A seasoned Product Manager and entrepreneur whose expertise lies at the union of data analytics and Mobile. He has taken multiple products from Zero to one and beyond.</p>
+                        </div>
+                        <div class="linkdin">
+                            <a target="_blank" href="https://www.linkedin.com/in/ravivyas/">
+                                <img src="/img/lb3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img">
+                            <img src="/img/team3.png" alt="team">
+                        </div>
+                        <div class="team-text">
+                            <p class="s-r light">Publishing Manager</p>
+                            <div class="line mt-0 line-s"></div>
+                            <p class="s-xl">Rakshak Kalwani</p>
+                        </div>
+                        <div class="team-bio">
+                            <p class="light">An Indie Game developer who is passionate about creating rich puzzle games and ed-tech applications. He has self-published 5 titles, and has worked with Azur Games & Rice Ball Hong Kong for 2 other titles. </p>
+                        </div>
+                        <div class="linkdin">
+                            <a target="_blank" href="https://www.linkedin.com/in/rakshak-kalwani-b1ab74a/">
+                                <img src="/img/lb3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img">
+                            <img src="/img/team4.jpg" alt="team">
+                        </div>
+                        <div class="team-text">
+                            <p class="s-r light">Publishing Director SEA</p>
+                            <div class="line mt-0 line-s"></div>
+                            <p class="s-xl">Le Thien Khiem</p>
+                        </div>
+                        <div class="team-bio">
+
+                            <p class="light">Thien has spent more than 15 years in the gaming industry with global leaders Amanotes and Gameloft as a Game Designer and Publishing Manager helping developers take their games global.</p>
+                        </div>
+                        <div class="linkdin">
+
+                            <a target="_blank" href="https://vn.linkedin.com/in/lethienkhiem">
+                                <img src="/img/lb3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <div class="team-img">
+                            <img src="/img/team5.png" alt="team">
+                        </div>
+                        <div class="team-text">
+                            <p class="s-r light">Head of User Acquisition & Monetization</p>
+                            <div class="line mt-0 line-s"></div>
+                            <p class="s-xl">Trần Hoàng Khôi</p>
+                        </div>
+                        <div class="team-bio">
+
+                            <p class="light">A User Acquisition veteran, Khoi has spent over 7 years working as a growth expert for Adways, a leading mobile agency in Japan, and Athena, a multinational game studio invested by Applovin delivering over 10 M downloads.</p>
+                        </div>
+                        <div class="linkdin">
+
+                            <a target="_blank" href="https://vn.linkedin.com/in/khoiua">
+                                <img src="/img/lb3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+{% include 'partials/footer.njk' %}
+    <script>
+        let isAtTop = true;
+
+        const btn = document.querySelector('.stickyBtn');
+        window.addEventListener('load', () => {
+            btn.classList.remove('active');
+            btn.style.height = btn.offsetWidth + 'px';
+            btn.style.opacity = 1;
+        });
+
+        btn.addEventListener('mouseenter', () => {
+            btn.classList.add('active');
+        });
+
+        window.addEventListener("scroll", (event) => {
+            let scroll = this.scrollY;
+            if (scroll > 0) {
+                btn.classList.add('active');
+                isAtTop = false;
+            } else {
+                btn.classList.remove('active');
+                isAtTop = true;
+            };
+        });
+
+        btn.addEventListener('mouseleave', () => {
+            if (isAtTop = true) {
+                btn.classList.remove('active');
+            };
+        });
+        window.addEventListener('load', () => {
+            let tag3 = document.createElement("script");
+            tag3.src = "/js/team.js";
+            document.getElementsByTagName("head")[0].appendChild(tag3);
+        })
+    </script>
+</body>
+
+</html>
