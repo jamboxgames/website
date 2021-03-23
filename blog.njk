@@ -7,6 +7,7 @@ description: Turn your games into global hits
 <html lang="en">
 
 <head>
+    {% include 'partials/header.njk' %}
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/aos.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -16,7 +17,7 @@ description: Turn your games into global hits
     <div class="body-inner">
        {% include 'partials/stickybtn.njk' %}
         {% include 'partials/nav.njk' %}
-        <div class="blog-header">
+        <div class="small-header">
             <div class="container">
                 <div class="header-inner">
                     <h1 data-aos="fade-right"><span class="c-b">Jambox</span> <span class="c-o">Blog</span></h1>
@@ -30,7 +31,12 @@ description: Turn your games into global hits
         
         <section>
             <div class="container">
-                <div class="blog-grid">
+                <div class="header-inner team">
+                        <h1 data-aos="fade-right"><span class="c-b">Coming</span> <span class="c-o">Soon</span></h1>
+                        <p data-aos="fade-up" data-aos-delay="100" class="s-xl mt-2"><span class="c-o">Thoughtful and in-depth analysis on</span> the mobile <span class="c-b">gaming industry.</span>
+                        </p>
+                    </div>
+                <!--<div class="blog-grid">
                             
                                 <div class="glide__slide blog-post glide__slide--clone" >
                                     <div class="blog">
@@ -145,7 +151,7 @@ description: Turn your games into global hits
                                     </div>
                                 </div>
                                    
-                </div>
+                </div> -->
             </div>
         </section>
 
