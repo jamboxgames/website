@@ -1,3 +1,5 @@
+const { DateTime } = require("luxon");
+
 module.exports = function(eleventyConfig) {
     // Output directory: _site
   
@@ -21,4 +23,17 @@ module.exports = function(eleventyConfig) {
       "txt",
       "njk"
     ]);
+    // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+    eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+      return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+    });
+    eleventyConfig.addCollection('featuredPosts', collection => {
+      return collection.getFilteredByGlob('./posts/*.md')
+        .filter(
+          post => post.data.featured_post
+        )
+        .sort((a,b) => {
+          return a.data.post_weight - b.data.post_weight;
+        });
+     });
   }

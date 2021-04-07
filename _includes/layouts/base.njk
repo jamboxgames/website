@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include 'partials/header.njk' %}
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="body-inner">
+       {% include 'partials/nav.njk' %}
+      <div id='center' class="main center">
+        <div class="blog-container">
+          {{ content | safe }}
+        </div>
+      </div>
+    </div>
+{% include 'partials/footer.njk' %}

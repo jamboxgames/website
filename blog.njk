@@ -30,128 +30,49 @@ description: Turn your games into global hits
         </div>
         
         <section>
-            <div class="container">
-                <div class="header-inner team">
-                        <h1 data-aos="fade-right"><span class="c-b">Coming</span> <span class="c-o">Soon</span></h1>
-                        <p data-aos="fade-up" data-aos-delay="100" class="s-xl mt-2"><span class="c-o">Thoughtful and in-depth analysis on</span> the mobile <span class="c-b">gaming industry.</span>
-                        </p>
+            <div class="blog-container">
+                <div class="blog-list-heading">Featured Post</div>
+                {% set featuredPost = collections.featuredPosts[0] %}
+                 <a href="{{ featuredPost.url | url }}" > 
+                    <div class="blog-post-hero">
+                        <div class="blog-text">
+                            <h3 class="blog-title-small"> {{featuredPost.data.title}} </h3>
+                            <span class="blog-post-date">{{featuredPost.data.date |  htmlDateString   }}</span> 
+                            <p class="mt-1 light">
+                                    {{ featuredPost.data.blurb }} 
+                            </p>
+                        </div>
+                        <div class="blog-img">
+                            <img src="/img/{{featuredPost.data.cover}}" >
+                        </div>
                     </div>
-                <!--<div class="blog-grid">
+                </a>
+                <div class="blog-list-heading">All Post</div>
+                <div class="blog-grid">
                             
+                            {%- for post in collections.post | reverse -%}
+                            
+                            <div class="blog-post">
+                            <a href="{{ post.url | url }}" > 
                                 <div class="glide__slide blog-post glide__slide--clone" >
                                     <div class="blog">
                                         <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
+                                            <img src="/img/{{post.data.cover}}" >
                                         </div>
                                         <div class="blog-text">
-                                            <h3 class=" w-r">Launch Post</h3>
+                                            <h3 class="blog-title-small"> {{ post.data.title }} </h3>
+                                            <span class="blog-post-date">{{post.data.date |  htmlDateString   }}</span> 
                                             <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
+                                                 {{ post.data.blurb }} 
                                             </p>
                                         </div>
                                     </div>
-                                </div><div class="glide__slide blog-post glide__slide--clone" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Second Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div><div class="glide__slide blog-post glide__slide--clone" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Third Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div><div class="glide__slide blog-post" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Launch Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                 <div class="glide__slide blog-post" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Second Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                 <div class="glide__slide blog-post glide__slide--active" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Third Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="glide__slide blog-post glide__slide--clone" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Launch Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div><div class="glide__slide blog-post glide__slide--clone" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Second Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div><div class="glide__slide blog-post glide__slide--clone" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/blog.png" alt="Jambox">
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class=" w-r">Third Post</h3>
-                                            <p class="mt-1 light">
-                                                Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                   
-                </div> -->
+                                </div> 
+                            </a>
+                            </div>
+                            {%- endfor -%}
+   
+                </div>
             </div>
         </section>
 

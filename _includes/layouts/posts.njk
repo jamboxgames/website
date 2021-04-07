@@ -1,0 +1,8 @@
+---
+layout: layouts/base.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}/{{ myslug | slug }}/index.html"
+---
+<h1 class="blog-title">{{ title }}</h1>
+<div class="post-content">
+  {{ content | safe }}
+</div>
