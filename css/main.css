@@ -404,22 +404,78 @@ a {
 .blog-container {
     max-width: 960px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blog-container p {
+    font-weight: 200;
+    color: #222;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+.blog-container ul li {
+    font-weight: 200;
+    color: #222;
+    margin-top: .3em;
+    margin-bottom: .3em;
 }
 
 .blog-title {
-    font-size: 4em;
     padding-top: 60px;
     padding-bottom: 30px;
-    font-weight: 300;
     letter-spacing: -0.75px;
-    line-height: 1.2;
+    line-height: 1;
 }
-.blog-title-small {
+
+.blog-container h3 {
     font-size: 1.75em;
     padding-bottom: 5px;
     font-weight: 300;
     letter-spacing: -0.75px;
     line-height: 1.2;
+    margin-top: 1em;
+}
+
+.bio-grid-container {
+    display: grid;
+    margin-bottom: 20px;
+    color: #425466;
+    grid-template-columns: 60px 120px 1fr;
+    grid-template-rows: 24px 24px;
+    gap: 0px 5px;
+    grid-template-areas:
+    "pic name blog-meta-date"
+    "pic title blog-meta-date";
+}
+.pic {
+    grid-area: pic; 
+}
+.blog-author-pic{
+    height: 100%;
+    width: auto;
+}
+
+.name { 
+    grid-area: name;
+    line-height: 1;
+    padding-top:4px;
+}
+.title {
+    grid-area: title;
+    line-height: 1;
+    padding-top:3px;
+}
+.blog-meta-date {
+    /* padding: 12px; */
+    color: #425466;
+    text-align: end;
+    padding-top:10px;
+}
+
+.job-apply-block {
+    margin-top: 20px;
 }
 
 #vidHeader {

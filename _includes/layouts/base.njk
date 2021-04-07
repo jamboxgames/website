@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="body-inner">
+        {% include 'partials/stickybtn.njk' %}
        {% include 'partials/nav.njk' %}
       <div id='center' class="main center">
         <div class="blog-container">
@@ -17,3 +18,39 @@
       </div>
     </div>
 {% include 'partials/footer.njk' %}
+<script>
+        let isAtTop = true;
+
+        const btn = document.querySelector('.stickyBtn');
+        window.addEventListener('load', () => {
+            btn.classList.remove('active');
+            btn.style.height = btn.offsetWidth + 'px';
+            btn.style.opacity = 1;
+        });
+
+        btn.addEventListener('mouseenter', () => {
+            btn.classList.add('active');
+        });
+
+        window.addEventListener("scroll", (event) => {
+            let scroll = this.scrollY;
+            if (scroll > 0) {
+                btn.classList.add('active');
+                isAtTop = false;
+            } else {
+                btn.classList.remove('active');
+                isAtTop = true;
+            };
+        });
+
+        btn.addEventListener('mouseleave', () => {
+            if (isAtTop = true) {
+                btn.classList.remove('active');
+            };
+        });
+        window.addEventListener('load', () => {
+            let tag3 = document.createElement("script");
+            tag3.src = "/js/team.js";
+            document.getElementsByTagName("head")[0].appendChild(tag3);
+        })
+    </script>

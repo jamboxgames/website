@@ -12,6 +12,9 @@ featured_post: true
 post_weight: 1.0
 layout: layouts/posts.njk
 cover: team.jpg
+author: Vikas Gulati
+author_title: Founder & CEO
+author_pic: vikas-gulati.jpg
 ---
 ![]({{ site.url }}/img/team.jpg)
 
