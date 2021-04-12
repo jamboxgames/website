@@ -360,11 +360,6 @@ a {
         "content";
     }
 
-    .blog-grid{
-        grid-template-rows:auto;
-        grid-template-columns: 1fr;
-    }
-
     .blog .blog-text {
         padding: 1rem .5rem
     }
@@ -372,6 +367,7 @@ a {
     .blog-grid{
         display: grid;
         grid-gap: 10px;
+        grid-template-rows:auto;
         grid-template-columns: 1fr;
         max-width: 440px;
         margin:auto;
@@ -631,6 +627,7 @@ header::after {
     .blog-grid{
         
         grid-gap: 5px;
+        grid-template-rows:auto;
         grid-template-columns: 1fr;
         max-width: 380px;
         margin:auto;
