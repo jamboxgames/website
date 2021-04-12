@@ -29,52 +29,7 @@ description: Turn your games into global hits
             </div>
         </div>
         
-        <section>
-            <div class="blog-container">
-                <div class="blog-list-heading">Featured Post</div>
-                {% set featuredPost = collections.featuredPosts[0] %}
-                 <a href="{{ featuredPost.url | url }}" > 
-                    <div class="blog-post-hero">
-                        <div class="blog-text">
-                            <h3 class="blog-title-small"> {{featuredPost.data.title}} </h3>
-                            <span class="blog-post-date">{{featuredPost.data.date |  htmlDateString   }}</span> 
-                            <p class="mt-1 light">
-                                    {{ featuredPost.data.blurb }} 
-                            </p>
-                        </div>
-                        <div class="blog-img">
-                            <img src="/img/{{featuredPost.data.cover}}" >
-                        </div>
-                    </div>
-                </a>
-                <div class="blog-list-heading">All Post</div>
-                <div class="blog-grid">
-                            
-                            {%- for post in collections.post | reverse -%}
-                            
-                            <div class="blog-post">
-                            <a href="{{ post.url | url }}" > 
-                                <div class="glide__slide blog-post glide__slide--clone" >
-                                    <div class="blog">
-                                        <div class="blog-img">
-                                            <img src="/img/{{post.data.cover}}" >
-                                        </div>
-                                        <div class="blog-text">
-                                            <h3 class="blog-title-small"> {{ post.data.title }} </h3>
-                                            <span class="blog-post-date">{{post.data.date |  htmlDateString   }}</span> 
-                                            <p class="mt-1 light">
-                                                 {{ post.data.blurb }} 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </a>
-                            </div>
-                            {%- endfor -%}
-   
-                </div>
-            </div>
-        </section>
+       {% include 'partials/featured.njk' %}
 
 {% include 'partials/footer.njk' %}
     <script>

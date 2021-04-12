@@ -9,7 +9,7 @@ tags:
   
 layout: layouts/career-post.njk
 team: Technology
-location: Flexible (India) 
+location: NCR, India
 ---
 ### What you will be doing
 - Design, develop, and maintain data infrastructure which aggregates data from various sources

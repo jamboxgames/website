@@ -1,8 +1,8 @@
 ---
-title: Jambox raises $ 1.1 from Ludus Venture Partners  
+title: Jambox raises $ 1.1 from ---- Venture Partners  
 date: 2021-04-13
  
-myslug: jambox-raises-$-1.1-from-ludus-venture-partners
+myslug: jambox-raises-$-1.1-from------venture-partners
 
 tags: 
   - post
