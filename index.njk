@@ -1,111 +1,29 @@
+---
+title: Jambox Games - Next Gen Competitive Game Publishing Platform
+keywords: Jambox, Games, Jambox games, home
+description: Power-up your mobile games
+---
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Power-up your mobile games">
-    <meta name="keywords" content="Jambox, Games, Jambox games, home">
-
-    <title>Jambox Games</title>
+    {% include 'partials/header.njk' %}
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
 </head>
 
 <body>
     <div class="body-inner">
-        <div class="sticky-btn">
-            <a href="publish.html">
-                <button class="s-r stickyBtn">
-                    <div class="text">Publish Your Game</div>
-                    <img src="img/stickyBtn.png" alt="Jambox">
-                </button>
-            </a>
-        </div>
-        <nav id="visible" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="index.html">
-                        <img src="img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="links s-r">
-                        <p><a href="about.html">About</a></p>
-                        <p><a href="games.html">Games</a></p>
-                        <p><a href="team.html">Team</a></p>
-                        <p><a href="blog.html">Blog</a></p>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav id="hidden" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="index.html">
-                        <img src="img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="links s-r">
-                        <p><a href="about.html">About</a></p>
-                        <p><a href="games.html">Games</a></p>
-                        <p><a href="team.html">Team</a></p>
-                        <p><a href="blog.html">Blog</a></p>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="visible">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                    <p><a href="about.html">About</a></p>
-                    <p><a href="games.html">Games</a></p>
-                    <p><a href="team.html">Team</a></p>
-                    <p><a href="blog.html">Blog</a></p>
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="hidden">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                    <p><a href="about.html">About</a></p>
-                    <p><a href="games.html">Games</a></p>
-                    <p><a href="team.html">Team</a></p>
-                    <p><a href="blog.html">Blog</a></p>
-                </div>
-            </div>
-        </nav>
+       {% include 'partials/stickybtn.njk' %}
+        {% include 'partials/nav.njk' %}
         <header>
             <div class="container">
                 <div class="header-inner">
                     <h1 data-aos="fade-right">Turn Your Games
                         <div></div> Into <span class="c-b">Global Hits</span></h1>
                     <p data-aos="fade-up" data-aos-delay="100" class="s-xl my-2"><span class="c-o">Power-up</span> your mobile games</p>
-                    <a href="#">
+                    <a href="/publish">
                         <button data-aos="fade-up" data-aos-delay="100" class="btn s-r">Publish your game</button>
                     </a>
                 </div>
@@ -118,7 +36,7 @@
         <!-- <section class="t-c">
             <div class="container">
                 <div class="mxw-800 m-a">
-                    <h2 class="w-r g-c">Our Mission</h2>
+                    <h2 class="fw-heavy">Our Mission</h2>
                     <div class="line m-a"></div>
                     <p class="s-xl">To Power the World’s Most Exciting & Entertaining Competitive Games That Users Love to Play Again & Again.</p>
                 </div>
@@ -129,13 +47,13 @@
             <div class="container">
                 <div class="g-3-2">
                     <div>
-                        <h2 class="w-r g-c">Competitive SDK</h2>
+                        <h2 class="fw-heavy">Competitive SDK</h2>
                         <div class="line"></div>
                         <p class="s-xl">
                             <span class="c-bl">Motivate, Engage and Reward your Players</span> <br> <span class="light">When your players feel like winners, you win. Grow your Revenue and retention with Jambox's Competitive Platform</span>
                         </p>
                         <div class="mt-1"></div>
-                        <a href="publish.html">
+                        <a href="publish">
                             <button class="btn">Level up with us</button>
                         </a>
                     </div>
@@ -149,7 +67,7 @@
                 <div class="g-2-3">
                     <div data-aos="fade-right" id="lottie2"></div>
                     <div>
-                        <h2 class="w-r g-c">Publishing Platform</h2>
+                        <h2 class="fw-heavy">Publishing Platform</h2>
                         <div class="line"></div>
                         <p class="s-xl">
                             <span class="c-bl">Acquisition, Monetization &  Growth Partner
@@ -157,7 +75,7 @@
 
                         </p>
                         <div class="mt-1"></div>
-                        <a href="publish.html">
+                        <a href="publish">
                             <button class="btn">grow with us</button>
                         </a>
                     </div>
@@ -166,32 +84,35 @@
             </div>
         </section>
 
-        <section>
+
+         {% include 'partials/featured.njk' %}
+         
+         <section>
             <div class="container">
                 <div class="glide-wrapper">
                     <div class="glide">
                         <div class="glide__track" data-glide-el="track">
-                            <ul class="glide__slides">
+                              <ul class="glide__slides">
                                 <li class="glide__slide">
-                                    <div class="blog">
+                                    <!--  <div class="blog">
                                         <div class="blog-img">
-                                            <img src="img/blog.png" alt="Jambox">
+                                            <img src="/img/blog.png" alt="Jambox">
                                         </div>
                                         <div class="blog-text">
-                                            <h3 class=" w-r">Launch Post</h3>
+                                            <h3 class=" fw-heavy">Launch Post</h3>
                                             <p class="mt-1 light">
                                                 Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
-                                            </p>
+                                            </p> 
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </li>
-                                 <li class="glide__slide">
+                                 <!-- <li class="glide__slide">
                                     <div class="blog">
                                         <div class="blog-img">
-                                            <img src="img/blog.png" alt="Jambox">
+                                            <img src="/img/blog.png" alt="Jambox">
                                         </div>
                                         <div class="blog-text">
-                                            <h3 class=" w-r">Second Post</h3>
+                                            <h3 class=" fw-heavy">Second Post</h3>
                                             <p class="mt-1 light">
                                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
                                             </p>
@@ -201,32 +122,33 @@
                                  <li class="glide__slide">
                                     <div class="blog">
                                         <div class="blog-img">
-                                            <img src="img/blog.png" alt="Jambox">
+                                            <img src="/img/blog.png" alt="Jambox">
                                         </div>
                                         <div class="blog-text">
-                                            <h3 class=" w-r">Third Post</h3>
+                                            <h3 class=" fw-heavy">Third Post</h3>
                                             <p class="mt-1 light">
                                                 Lorem ipsum dolor sit, amet - consectetur adipisicing elit. Deserunt minima nulla fugiat accusamus? Sunt eius nesciunt dolores nostrum consequatur accusamus!
                                             </p>
                                         </div>
                                     </div>
-                                </li>
-                            </ul>
+                                </li> -->
+                            </ul>  
                         </div>
+                        <!--
                         <div class="glide__arrows" data-glide-el="controls">
                             <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                        <img src="img/anglel.png" alt="angle">
-                    </button>
-                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="img/angler.png" alt="angle"></button>
-                        </div>
+                        <img src="/img/anglel.png" alt="angle">
+                        </button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="/img/angler.png" alt="angle"></button>
+                        </div> -->
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
 
         <!-- <section class="py-5">
             <div class="container">
-                <h2 class="t-c w-r c-g">Level-Up With Us</h2>
+                <h2 class="t-c fw-heavy c-g">Level-Up With Us</h2>
                 <div class="line m-a"></div>
                 <div class="form-wrapper mt-2">
                     <div id="mc_embed_signup">
@@ -247,54 +169,7 @@
             </div>
         </section> -->
 
-        <div class="footer-angle"></div>
-        <footer>
-            <div class="container">
-                <div class="footer-inner">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="img/logo.svg" alt="Jambox Games">
-                        </a>
-                    </div>
-                    <div>
-                        <div class="s-r">
-                            <a href="#">
-                                <img src="img/fb.png" alt="facebook">
-                            </a>
-                            <a href="about.html" class="mt-05">
-                                <p>About</p>
-                            </a>
-                        </div>
-                        <div class="s-r">
-                            <a href="#">
-                                <img src="img/insta.png" alt="Instagram">
-                            </a>
-                            <a href="blog.html" class="mt-05">
-                                <p>Blog</p>
-                            </a>
-                        </div>
-                        <div class="s-r">
-                            <a href="#">
-                                <img src="img/twitter.png" alt="twitter">
-                            </a>
-                            <a href="team.html" class="mt-05">
-                                <p>Team</p>
-                            </a>
-                        </div>
-                        <div class="s-r">
-                            <a href="#">
-                                <img src="img/ln.png" alt="Linkedin">
-                            </a>
-                            <a href="games.html" class="mt-05">
-                                <p>Games</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <p class="copyright t-c s-s c-g light mt-2">© Jambox Games 2021</p>
-            </div>
-        </footer>
-    </div>
+        {% include 'partials/footer.njk' %}
 
     <script>
         
@@ -347,7 +222,7 @@ AOS.init({
         video.play();
         window.addEventListener('load', () => {
             var tag = document.createElement("script");
-            tag.src = "./js/app.js";
+            tag.src = "/js/app.js";
             document.getElementsByTagName("head")[0].appendChild(tag);
         })
     </script>

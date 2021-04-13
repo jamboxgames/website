@@ -16,7 +16,6 @@ h3 {
 }
 
 p {
-    font-weight: 500;
     color: #444;
 }
 
@@ -60,7 +59,7 @@ p {
     font-weight: 400;
 }
 
-.w-r {
+.fw-heavy {
     font-weight: 500;
 }
 
@@ -417,7 +416,7 @@ header {
 }
 
 
-.blog-header{
+.small-header{
     height: 40vh;
     display: flex;
     padding-left: 1.5rem;
@@ -445,6 +444,22 @@ header .header-inner {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.team-header{
+    background-image: url(/img/team.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 25%;
+    background-size: cover;
+    height: 70vh;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.header-inner.team{
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .stickyBtn {
@@ -640,7 +655,7 @@ footer {
     }
 
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
 
 
@@ -650,6 +665,12 @@ footer {
 
     .stickyBtn {
         padding: 0 1rem;
+    }
+
+    
+    .team-header{
+        height: 30vh;
+        background-size: cover;
     }
 }
 
@@ -666,6 +687,10 @@ footer {
 
     footer .footer-inner>div:first-child {
         margin-bottom: 1rem;
+    }
+
+    .team-header{
+        display: none;
     }
 }
 

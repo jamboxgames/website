@@ -1,0 +1,73 @@
+---
+title: Games
+keywords: Jambox, Games, Jambox games, team
+description: Fabulous games are coming soon
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include 'partials/header.njk' %}
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    
+</head>
+
+<body>
+    <div class="body-inner">
+       {% include 'partials/stickybtn.njk' %}
+       {% include 'partials/nav.njk' %}
+        <header>
+            <div class="container">
+                <div class="header-inner">
+                    <h1 data-aos="fade-right"><span class="c-b">Stay</span> <span class="c-o">Tuned</span></h1>
+                    <p data-aos="fade-up" data-aos-delay="100" class="s-xl mt-2"><span class="c-o">Fabulous Games</span> are <span class="c-b">coming soon!</span>
+                    </p>
+                </div>
+            </div>
+            <div id="particlesHeader">
+
+            </div>
+        </header>
+
+
+{% include 'partials/footer.njk' %}
+    <script>
+        let isAtTop = true;
+
+        const btn = document.querySelector('.stickyBtn');
+        window.addEventListener('load', () => {
+            btn.classList.remove('active');
+            btn.style.height = btn.offsetWidth + 'px';
+            btn.style.opacity = 1;
+        });
+
+        btn.addEventListener('mouseenter', () => {
+            btn.classList.add('active');
+        });
+
+        window.addEventListener("scroll", (event) => {
+            let scroll = this.scrollY;
+            if (scroll > 0) {
+                btn.classList.add('active');
+                isAtTop = false;
+            } else {
+                btn.classList.remove('active');
+                isAtTop = true;
+            };
+        });
+
+        btn.addEventListener('mouseleave', () => {
+            if (isAtTop = true) {
+                btn.classList.remove('active');
+            };
+        });
+        window.addEventListener('load', () => {
+            let tag3 = document.createElement("script");
+            tag3.src = "/js/games.js";
+            document.getElementsByTagName("head")[0].appendChild(tag3);
+        })
+    </script>
+</body>
+
+</html>

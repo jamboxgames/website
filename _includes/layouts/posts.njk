@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+permalink: "{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}/{{ myslug | slug }}/index.html"
+---
+<h1 class="blog-title fw-heavy">{{ title }}</h1>
+
+
+<div class="bio-grid-container">
+  <div class="pic">
+    <img class="blog-author-pic" src="/img/{{author_pic}}" alt="{{author}}">
+  </div>
+  <div class="name">
+    <div class="blog-meta">{{author}}</div>
+  </div>
+  <div class="title">
+    <div class="blog-meta">{{author_title}}</div>
+  </div>
+  <div class="blog-meta-date">
+    {{page.date | htmlDateString}}
+  </div>
+</div>
+
+<div class="line my-05 m-a"></div>
+<div class="post-content">
+  {{ content | safe }}
+</div>
+<div class="line bg-o m-a"></div>

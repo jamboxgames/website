@@ -59,7 +59,7 @@ document.addEventListener('click', (event) => {
 
 const animation = bodymovin.loadAnimation({
     container: document.getElementById('lottie1'), // Required
-    path: '../json/success.json', // Required
+    path: '/json/success.json', // Required
     renderer: 'svg', // Required
     loop: true, // Optional
     autoplay: true, // Optional
@@ -67,7 +67,7 @@ const animation = bodymovin.loadAnimation({
 
 const animatio2n = bodymovin.loadAnimation({
     container: document.getElementById('lottie2'), // Required
-    path: '../json/growth.json', // Required
+    path: '/json/growth.json', // Required
     renderer: 'svg', // Required
     loop: true, // Optional
     autoplay: true, // Optional

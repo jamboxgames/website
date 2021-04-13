@@ -1,0 +1,24 @@
+       <section>
+            <div class="blog-container">
+
+
+                <h2 class="fw-heavy">Featured Blog Post</h2>
+                <div class="line"></div>
+                {% set featuredPost = collections.featuredPosts[0] %}
+                 <a href="{{ featuredPost.url | url }}" > 
+                    <div class="blog-post-hero">
+                        <div class="blog-text">
+                            <h3 class="blog-title-small"> {{featuredPost.data.title}} </h3>
+                            <span class="blog-post-date">{{featuredPost.data.date |  htmlDateString   }}</span> 
+                            <p class="mt-1 light">
+                                    {{ featuredPost.data.blurb }} 
+                            </p>
+                        </div>
+                        <div class="blog-img">
+                            <img src="/img/{{featuredPost.data.cover}}" >
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+        </section>

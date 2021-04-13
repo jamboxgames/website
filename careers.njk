@@ -1,0 +1,99 @@
+---
+title: Careers
+keywords: Jambox, Games, Jambox games, Careers
+description: Jobs at Jambox Games. Turn your games into global hits
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include 'partials/header.njk' %}
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class="body-inner">
+       {% include 'partials/stickybtn.njk' %}
+        {% include 'partials/nav.njk' %}
+        <div class="small-header">
+            <div class="container">
+                <div class="header-inner">
+                    <h1 data-aos="fade-right"><span class="c-b">Jambox</span> <span class="c-o">Careers</span></h1>
+                    </p>
+                </div>
+            </div>
+            <div id="particlesHeader">
+
+            </div>
+        </div>
+        
+        <section>
+            <div class="blog-container">
+                <div class="blog-grid">
+                            
+                            {%- for post in collections.jobs | reverse -%}
+                            
+                            <div class="blog-post">
+                            <a href="{{ post.url | url }}" > 
+                                <div class="glide__slide blog-post glide__slide--clone" >
+                                    <div class="blog">
+                                        <div class="blog-text">
+                                            <h3 class="blog-title-small"> {{ post.data.title }} </h3>
+                                            <div class="blog-post-meta"> Team: {{post.data.team }}</div> 
+                                            <div class="blog-post-meta"> Location: {{post.data.location }}</div> 
+                                            <p class="mt-1 light">
+                                                 {{ post.data.blurb }} 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </a>
+                            </div>
+                            {%- endfor -%}
+   
+                </div>
+            </div>
+        </section>
+
+{% include 'partials/footer.njk' %}
+    <script>
+        let isAtTop = true;
+
+        const btn = document.querySelector('.stickyBtn');
+        window.addEventListener('load', () => {
+            btn.classList.remove('active');
+            btn.style.height = btn.offsetWidth + 'px';
+            btn.style.opacity = 1;
+        });
+
+        btn.addEventListener('mouseenter', () => {
+            btn.classList.add('active');
+        });
+
+        window.addEventListener("scroll", (event) => {
+            let scroll = this.scrollY;
+            if (scroll > 0) {
+                btn.classList.add('active');
+                isAtTop = false;
+            } else {
+                btn.classList.remove('active');
+                isAtTop = true;
+            };
+        });
+
+        btn.addEventListener('mouseleave', () => {
+            if (isAtTop = true) {
+                btn.classList.remove('active');
+            };
+        });
+        window.addEventListener('load', () => {
+            let tag3 = document.createElement("script");
+            tag3.src = "/js/games.js";
+            document.getElementsByTagName("head")[0].appendChild(tag3);
+        })
+    </script>
+</body>
+
+</html>
