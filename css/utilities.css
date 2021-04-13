@@ -118,7 +118,7 @@ video::-webkit-media-controls-start-playback-button {
 
 nav img,
 .logo {
-    max-width: 80px;
+    max-width: 90px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -187,6 +187,7 @@ nav.desktop .nav-inner .links {
 }
 
 nav.desktop .nav-inner .links p {
+    font-weight: 500;
     margin-right: 3rem;
     position: relative;
 }
@@ -647,7 +648,7 @@ footer {
 
     nav img,
     .logo {
-        max-width: 65px;
+        max-width: 75px;
     }
 
     footer .footer-inner>div:last-child img {

@@ -421,7 +421,7 @@ a {
 
 .blog-img img {
     height: 100%;
-    object-fit: cover
+    object-fit: contain;
 }
 
 .blog .blog-text {
@@ -429,7 +429,7 @@ a {
 }
 
 .blog-container {
-    max-width: 960px;
+    max-width: 680px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -632,6 +632,16 @@ header::after {
         max-width: 380px;
         margin:auto;
     }
+}
+
+.post-content p{
+    font-size: 18px;
+    margin-top: 1.8em;
+    line-height: 28px;
+}
+
+.post-content a{
+    font-weight: 500;
 }
 
 ::-webkit-media-controls-panel {

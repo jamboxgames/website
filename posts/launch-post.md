@@ -1,8 +1,8 @@
 ---
-title: Jambox raises $ 1.1 from ---- Venture Partners  
+title: Why we are building Jambox
 date: 2021-04-13
  
-myslug: jambox-raises-$-1.1-from------venture-partners
+myslug: why-we-are-building-jambox
 
 tags: 
   - post
@@ -11,48 +11,23 @@ tags:
 featured_post: true
 post_weight: 1.0
 layout: layouts/posts.njk
-cover: team.jpg
+cover: team_jambox.jpg
 author: Vikas Gulati
 author_title: Founder & CEO
 author_pic: vikas-gulati.jpg
+blurb: Today's mobile game developers can't compete with global giants, Which is why we are building Jambox Games
 ---
-![]({{ site.url }}/img/team.jpg)
+![]({{ site.url }}/img/team_jambox.jpg)
 
 
-## If by Rudyard Kipling
+The power of the Smartphone is nonpareil, demonstrated by the mobile gaming industry which stands at $85 B in 2020, an industry which is [still growing at record pace](https://venturebeat.com/2021/04/05/sensor-tower-mobile-game-spending-hit-22-2b-in-2021-q1-up-25-from-2020/) every quarter. I find myself honoured to have worked in this industry for the last decade. 
 
-If you can keep your head when all about you   
-    Are losing theirs and blaming it on you,   
-If you can trust yourself when all men doubt you,
-    But make allowance for their doubting too;   
-If you can wait and not be tired by waiting,
-    Or being lied about, don’t deal in lies,
-Or being hated, don’t give way to hating,
-    And yet don’t look too good, nor talk too wise:
+The mobile gaming industry is dominated by global giants. Think Tencent, King, Supercell, Playrix, Zynga, Peak and others. Top 1% of the Game Publishers and Developers make over 90% of all the revenue and downloads in gaming. Most Indie game developers in Asia struggle to scale their games and compete against global incumbents. 
 
-If you can dream—and not make dreams your master;   
-    If you can think—and not make thoughts your aim;   
-If you can meet with Triumph and Disaster
-    And treat those two impostors just the same;   
-If you can bear to hear the truth you’ve spoken
-    Twisted by knaves to make a trap for fools,
-Or watch the things you gave your life to, broken,
-    And stoop and build ’em up with worn-out tools:
+Having closely trailed and worked with many of the chart-topping games and watched them climb the ladder, I have noticed first hand the democratization of the craft of game development. However the challenge faced by the developers has moved up the stack to growth and monetization, topping the charts on App stores is more science than art in today’s competitive world. Due to this, there are always great games available in the market, which have never seen traction, ‘[Among Us](https://www.esports.net/news/how-among-us-blew-up-online-two-years-after-release/)’ being a great example, a game which struggled for 2 years before becoming a global hit. While game creation is largely democratized, game publishing is still the bastion of sophisticated global incumbents with access to BI (business intelligence) tools, vast UA budgets and expertise in monetization and performance marketing.
 
-If you can make one heap of all your winnings
-    And risk it on one turn of pitch-and-toss,
-And lose, and start again at your beginnings
-    And never breathe a word about your loss;
-If you can force your heart and nerve and sinew
-    To serve your turn long after they are gone,   
-And so hold on when there is nothing in you
-    Except the Will which says to them: ‘Hold on!’
+That is the challenge Jambox games is working to solve. Our platform’s tools and resources will be built to make developer’s games successful and maximize their earnings. Our business model will be aligned with developer success and we will put our skin in the game and invest in their games. At Jambox Games, we believe we will win only when our developer partners win with their games. 
 
-If you can talk with crowds and keep your virtue,   
-    Or walk with Kings—nor lose the common touch,
-If neither foes nor loving friends can hurt you,
-    If all men count with you, but none too much;
-If you can fill the unforgiving minute
-    With sixty seconds’ worth of distance run,   
-Yours is the Earth and everything that’s in it,   
-    And—which is more—you’ll be a Man, my son!
+Joining me on this journey are a trusted team of veterans and experts in their respective fields. You can learn more about the core team [here](https://jambox.games/team/)!
+
+We are also looking for more talented folks to join our team, you can check out the opportunities on our [careers page](https://jambox.games/careers/)
