@@ -12,6 +12,25 @@
 <link rel="canonical" href="{{site.url}}{{page.url}}">
 <meta name="keywords" content="{{ keywords }}">
 <meta name="description" content="{{ description }}">
+    <!-- Primary Meta Tags -->
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{site.url}}{{page.url}}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+{% if og_image %}
+  <meta property="og:image" content="{{ site.url }}/img/{{og_image}}">
+{% endif %}
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{site.url}}{{page.url}}">
+<meta property="twitter:title" content="{{ title }}">
+<meta property="twitter:description" content="{{ description }}">
+{% if og_image %}
+<meta property="twitter:image" content="{{ site.url }}/img/{{og_image}}">
+{% endif %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCK7HZ790M"></script>
 <script>

@@ -7,13 +7,19 @@ permalink: "{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.da
 
 <div class="bio-grid-container">
   <div class="pic">
+  <a href="{{author_url}}"> 
     <img class="blog-author-pic" src="/img/{{author_pic}}" alt="{{author}}">
+  </a>
   </div>
   <div class="name">
+  <a href="{{author_url}}"> 
     <div class="blog-meta">{{author}}</div>
+  </a>
   </div>
   <div class="title">
+  <a href="{{author_url}}"> 
     <div class="blog-meta">{{author_title}}</div>
+  </a>
   </div>
   <div class="blog-meta-date">
     {{page.date | htmlDateString}}
