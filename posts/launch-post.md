@@ -12,10 +12,12 @@ featured_post: true
 post_weight: 1.0
 layout: layouts/posts.njk
 cover: team_jambox.jpg
+og_image: team_jambox.jpg
 author: Vikas Gulati
 author_title: Founder & CEO
 author_pic: vikas-gulati.jpg
-blurb: Today's mobile game developers can't compete with global giants, Which is why we are building Jambox Games
+author_url: https://www.linkedin.com/in/vikasgulati/
+description: Today's mobile game developers can't compete with global giants, Which is why we are building Jambox Games
 ---
 ![]({{ site.url }}/img/team_jambox.jpg)
 
