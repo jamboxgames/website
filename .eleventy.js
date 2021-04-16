@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
           post => post.data.featured_post
         )
         .sort((a,b) => {
-          return a.data.post_weight - b.data.post_weight;
+          return b.data.post_weight - a.data.post_weight;
         });
      });
   }
