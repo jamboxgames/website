@@ -494,6 +494,10 @@ a {
     padding-right: 10px;
 }
 
+.wide {
+    max-width: 960px;
+}
+
 .blog-container p {
     font-weight: 200;
     color: #222;
@@ -665,7 +669,7 @@ header::after {
     .blog-grid{
         
         grid-gap: 5px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         max-width: 650px;
         margin:auto;
     }
