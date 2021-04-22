@@ -1,0 +1,25 @@
+       <section>
+            <div class="blog-container">
+
+
+                <h2 class="fw-heavy">All Blogs</h2>
+                <div class="line bg-o"></div>
+                 {%- for post in collections.post | reverse -%}
+                 <a href="{{ post.url | url }}" > 
+                    <div class="blog-post-hero">
+                        <div class="blog-text">
+                            <h3 class=""> {{post.data.title}} </h3>
+                            <span class="blog-post-date">{{post.data.date |  htmlDateString   }}</span> 
+                            <p class="mt-1 light">
+                                    {{ post.data.description }} 
+                            </p>
+                        </div>
+                        <div class="blog-img">
+                            <img src="/img/{{post.data.cover}}" >
+                        </div>
+                    </div>
+                </a>
+                {%- endfor -%}
+                
+            </div>
+        </section>

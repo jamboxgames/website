@@ -1,8 +1,8 @@
 ---
-title: Backend Engineer
+title: Senior Backend Engineer
 date: 2021-04-13
  
-myslug: backend-engineer
+myslug: senior-backend-engineer
 
 tags: 
   - jobs
@@ -23,5 +23,5 @@ location: NCR, India
 - Strong Analytics and debugging skills.
 - Good understanding of Data Structures, TCP/IP, Software designs and best coding practices.
 - Experience with both SQL and NoSQL databases.
-- Have 0-3 years experience in your craft.
+- Have 3-7 years experience in your craft.
 - Own the technology end-to-end and are comfortable moving across the stack 

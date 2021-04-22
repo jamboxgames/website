@@ -2,6 +2,7 @@
 title: Careers
 keywords: Jambox, Games, Jambox games, Careers
 description: Jobs at Jambox Games. Turn your games into global hits
+og_image: og-career.jpg
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +31,7 @@ description: Jobs at Jambox Games. Turn your games into global hits
         </div>
         
         <section>
-            <div class="blog-container">
+            <div class="blog-container wide">
                 <div class="blog-grid">
                             
                             {%- for post in collections.jobs | reverse -%}
@@ -40,7 +41,7 @@ description: Jobs at Jambox Games. Turn your games into global hits
                                 <div class="glide__slide blog-post glide__slide--clone" >
                                     <div class="blog">
                                         <div class="blog-text">
-                                            <h3 class="blog-title-small"> {{ post.data.title }} </h3>
+                                            <h3 class=""> {{ post.data.title }} </h3>
                                             <div class="blog-post-meta"> Team: {{post.data.team }}</div> 
                                             <div class="blog-post-meta"> Location: {{post.data.location }}</div> 
                                             <p class="mt-1 light">
