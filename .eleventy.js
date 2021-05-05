@@ -12,6 +12,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("*.png"); 
     eleventyConfig.addPassthroughCopy("json"); 
     eleventyConfig.addPassthroughCopy("*.svg"); 
+    eleventyConfig.addPassthroughCopy("*.txt"); 
     eleventyConfig.addPassthroughCopy("*.html"); 
     // Copy `css/fonts/` to `_site/css/fonts`
     // If you use a subdirectory, it’ll copy using the same directory structure.
