@@ -11,7 +11,7 @@ layout: layouts/career-post.njk
 team: Technology
 location: NCR, India
 ---
-### What you will be doing
+## What you will be doing
 
 - Play a critical role in building and shaping our Mobile SDKs, which will be used by game developers. Design, build, and maintain all our SDKs across various platforms [iOS, Android]
 - Work with 3rd party Mobile SDKs across Analytics, Advertising and other services
@@ -19,7 +19,7 @@ location: NCR, India
 - Interact closely with the product team and our customers (game developers) to build our product 
 - Interact with game developers to guide them through the process of integration and also be the owner of all the documentation needed to usage of the SDKs
 
-### Who you are 
+## Who you are 
 - An Android, iOS developer and have worked with backend teams to build SDKs
 - Have 3-6 years experience in mobile technology like ObjC, Java, Kotlin, React Native etc.
 - Having understanding of game engines like Unity and Cocos2d

@@ -494,6 +494,41 @@ a {
     padding-right: 10px;
 }
 
+.base-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5%;
+}
+
+.base-container h2 {
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.base-container h3 {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.base-container p {
+    font-weight: 200;
+    color: #222;
+    margin-top: .3em;
+    margin-bottom: .3em;
+    padding-left: .6em;
+    padding-right: .3em;
+}
+
+.base-container ul {
+    padding-left: 1.5em;
+}
+.base-container li {
+    font-weight: 200;
+    list-style: circle;
+}
+
 .wide {
     max-width: 960px;
 }
