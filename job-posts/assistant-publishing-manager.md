@@ -1,8 +1,8 @@
 ---
-title: Publishing Assistant Manager
+title: Assistant Publishing Manager
 date: 2021-05-13
  
-myslug: publishing-assistant-manager
+myslug: assistant-publishing-manager
 
 tags: 
   - jobs
