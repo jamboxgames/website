@@ -11,13 +11,13 @@ layout: layouts/career-post.njk
 team: Technology
 location: NCR, India
 ---
-### What you will be doing
+## What you will be doing
 - Design, develop, and maintain data infrastructure which aggregates data from various sources
 - Build all the adjacent services to pull/fetch/ingest and transform data
 - Working closely with internal teams to provide the data they need
 - Working closely with the Product team to build out our data platform
 
-### Who you are
+## Who you are
 - Have experience with data modeling, data warehousing, and building ETL pipelines
 - Strong knowledge on SQL and NoSQL databases
 - Worked with BI Tools like Tableau, Power BI, Data Studio etc.

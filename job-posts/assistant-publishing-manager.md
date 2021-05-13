@@ -11,7 +11,7 @@ layout: layouts/career-post.njk
 team: Publishing
 location: Southeast Asia
 ---
-### What you will be doing
+## What you will be doing
 - Sourcing new high potential game studios in South East Asia
 - On-boarding and coaching South East Asian studios
 - Developing and maintaining a trusting relationship with the best South East Asian teams and ensuring a follow-up
@@ -19,8 +19,7 @@ location: Southeast Asia
 - Ability to deconstruct and analyse mobile game mechanics
 - Competitor analysis from hyper casual/casual games in the South East Asian market
 - Keep a close eye on the market and provide up-to-date hyper casual gaming trends to our partners
-  
-### Who you are
+## Who you are
 - You have a strong interest in gaming, especially casual and hyper casual games
 - Good game balancing UX/UI
 - Excellent analytical, communication and presentation skills
