@@ -398,6 +398,8 @@ rhythmone.com, 3948367200, RESELLER, a670c89d4a324e47
 rubiconproject.com, 15320, RESELLER, 0bfd66d529a55807
 startapp.com, inr, RESELLER
 facebook.com, 2892913207608968, RESELLER, c3e20eee3f780d68
+facebook.com, 521696592283305, RESELLER, c3e20eee3f780d68
+facebook.com, 2892913207608968, DIRECT, c3e20eee3f780d68
 tapjoy.com, 07b48ba83da34f0792fff0f67312380d, DIRECT, 29e595b1aeb5904d
 rubiconproject.com, 12286, RESELLER, 0bfd66d529a55807
 webeyemob.com, 70096, RESELLER
@@ -412,4 +414,3 @@ rhythmone.com, 123476257, RESELLER, a670c89d4a324e47
 pubmatic.com, 160565, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160565, DIRECT, 5d62403b186f2ace
 pangleglobal.com, 9898, DIRECT
-facebook.com, 521696592283305, RESELLER, c3e20eee3f780d68
