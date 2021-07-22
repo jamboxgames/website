@@ -415,3 +415,4 @@ pubmatic.com, 160565, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160565, DIRECT, 5d62403b186f2ace
 pangleglobal.com, 9898, DIRECT
 facebook.com, 329792785482026, RESELLER, c3e20eee3f780d68
+google.com, pub-9605403026639169, RESELLER
