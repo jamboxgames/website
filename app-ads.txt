@@ -397,23 +397,39 @@ rhythmone.com, 2169000724, RESELLER, a670c89d4a324e47
 rhythmone.com, 3948367200, RESELLER, a670c89d4a324e47
 rubiconproject.com, 15320, RESELLER, 0bfd66d529a55807
 startapp.com, inr, RESELLER
-facebook.com, 2892913207608968, RESELLER, c3e20eee3f780d68
 facebook.com, 521696592283305, RESELLER, c3e20eee3f780d68
 facebook.com, 2892913207608968, DIRECT, c3e20eee3f780d68
 tapjoy.com, 07b48ba83da34f0792fff0f67312380d, DIRECT, 29e595b1aeb5904d
 rubiconproject.com, 12286, RESELLER, 0bfd66d529a55807
 webeyemob.com, 70096, RESELLER
-openx.com, 540679900, RESELLER, 6a698e2ec38604c6
-adcolony.com, 801e49d1be83b5f9, RESELLER, 1ad675c9de6b5176
-pubmatic.com, 158060, RESELLER, 5d62403b186f2ace
-video.unrulymedia.com, 123476257, RESELLER
-indexexchange.com, 182257, RESELLER
-appnexus.com, 6849, RESELLER
-rubiconproject.com, 15268, RESELLER
-rhythmone.com, 123476257, RESELLER, a670c89d4a324e47
 pubmatic.com, 160565, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160565, DIRECT, 5d62403b186f2ace
 pangleglobal.com, 9898, DIRECT
 facebook.com, 329792785482026, RESELLER, c3e20eee3f780d68
 google.com, pub-9605403026639169, RESELLER
 pangleglobal.com,80309,DIRECT
+opera.com, pub4007008646336, RESELLER, 55a0c5fd61378de3
+indexexchange.com, 192806, RESELLER, 50b1c356f2c5c8fc
+rubiconproject.com,17608,RESELLER,0bfd66d529a55807
+triplelift.com, 10522, RESELLER, 6c33edb13117fd86
+smartadserver.com, 4052, RESELLER
+synacor.com, 82460, RESELLER,e108f11b2cdf7d5b
+aol.com, 58935, RESELLER, e1a5b5b6e3255540
+yahoo.com, 58935, RESELLER, e1a5b5b6e3255540
+admixer.co.kr, 1317, RESELLER
+admixer.net, 5c5e6567-8486-42b9-9315-9262bd744b71, RESELLER
+pubmatic.com, 160846, RESELLER, 5d62403b186f2ace
+inmobi.com, 61d733c3779d43e590c51c8bc078e10c, RESELLER, 83e75a7ae333ca9d
+ssp.logan.ai, LG12, RESELLER
+aol.com, 57992, RESELLER, e1a5b5b6e3255540
+Yahoo.com, 57992, RESELLER, e1a5b5b6e3255540
+e-planning.net,ec771b05828a67fa,RESELLER,c1ba615865ed87b2
+adcolony.com, 2851dffbb0d51b5e, RESELLER, 1ad675c9de6b5176
+advertising.com, 28650, RESELLER
+indexexchange.com, 194730, RESELLER
+pubmatic.com, 160318, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160319, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 22412, RESELLER, 0bfd66d529a55807
+undertone.com, 4102, RESELLER
+smartclip.net, 8153, RESELLER
+stroeer.com, 17105, RESELLER
