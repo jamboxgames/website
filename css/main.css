@@ -375,6 +375,8 @@ a {
     align-content: flex-start;
     margin:auto;
     padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .press-item {
