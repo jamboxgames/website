@@ -602,3 +602,8 @@ adform.com, 2600, DIRECT
 stroeer.com, 17938, DIRECT
 google.com, pub-4170834698879083, RESELLER
 fyber.com, 215542, DIRECT
+algorix.co, 54236, RESELLER, 5b394c12fea27a1d
+conversantmedia.com, 100308, RESELLER, 03113cd04947736d
+improvedigital.com, 2002, RESELLER
+verve.com, 14592, RESELLER, 0c8f5958fc2d6270
+yieldmo.com , 2807970144171533194, RESELLER
