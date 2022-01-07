@@ -5,19 +5,27 @@ og_image: og-career.jpg
 ---
 <div class='breadcrumb'> <a href="/careers/"> < All Jobs</a></div>
 <h1 class="blog-title">{{ title }}</h1>
+<p> <strong>Status:</strong> <span style="text-transform:capitalize;">{{status}}</span></p>
 <p> <strong>Team:</strong> {{team}}</p>
 <p> <strong>Location:</strong> {{location}}</p>
 <div class="post-content">
   <h2 class="">Company Profile</h2>
-  <p>Jambox Games is a venture-backed Singapore &amp; India based Mobile Game Publishing Platform, on a mission to re-imagine and redefine how mobile game publishing is done today.</p>
-  <p>The vision is to create the largest Free to Play, next-generation competitive game publishing platform in Asia. The company is a start-up and is looking to establish its presence in India and South East Asia. The founder and core team have deep experience in Game Publishing &amp; Adtech and have built and managed over $200mn business in their previous roles.</p>
-  <p>You will work closely with the founding team, partner with Product and work with other engineers and developers to bring the platform vision to life.</p>
+  <p>Jambox Games is a venture-backed South East Asia and India based Competitive Game Publishing Platform. The start-up is on a mission to re-imagine and redefine how Indie developers build engaging multiplayer games and publish these games globally.</p>
+  <p>Our unique Async-Multiplay technology enables competitive multiplayer games and rewards for game developers through easy to integrate SDK. </p>
+  <p>The vision is to create the largest Free to Play, next-generation competitive game publishing platform in Asia. The founder and core team have deep experience in Game Publishing & Adtech and have built and managed over $200mn business in their previous roles.</p>
 
 </div>
 
 {{ content | safe }}
 
+{% if "open" in status %}    
 <div class="job-apply-block">
   <h2 class="">How to Apply</h2>
-  <p>Send us your resume at <a class="bold" href="mailto:careers@jambox.games?subject={{title}} Application">careers@jambox.games</a> if you would like to join the rocketship</p>
+  <p>If you are a rockstar candidate and you have what it takes to win with Game developers, send us your resume at <a class="bold" href="mailto:careers@jambox.games?subject={{title}} Application">careers@jambox.games</a> if you would like to join the rocketship</p>
 </div>
+{% endif %}
+{% if "closed" in status %}    
+<div class="job-apply-block">
+  <h2 class="">This position is no longer open</h2>
+</div>
+{% endif %}

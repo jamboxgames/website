@@ -9,6 +9,7 @@ tags:
   
 layout: layouts/career-post.njk
 team: Technology
+status: closed
 location: NCR, India
 ---
 ## What you will be doing
