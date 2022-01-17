@@ -611,3 +611,7 @@ meitu.com, 282, RESELLER
 exchange.admazing.co, AM3, RESELLER
 inmobi.com, ebc44eef6c104f7fbf7bc52ee29f7939, RESELLER, 83e75a7ae333ca9d
 rubiconproject.com, 14558, RESELLER, 0bfd66d529a55807
+pubmatic.com, 159509, RESELLER, 5d62403b186f2ace
+pubnative.net, 1007170, RESELLER, d641df8625486a7b
+Verve.com, 15290, RESELLER, 0c8f5958fc2d6270
+indexexchange.com, 192829, RESELLER, 50b1c356f2c5c8f
