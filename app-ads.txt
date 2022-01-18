@@ -615,3 +615,13 @@ pubmatic.com, 159509, RESELLER, 5d62403b186f2ace
 pubnative.net, 1007170, RESELLER, d641df8625486a7b
 Verve.com, 15290, RESELLER, 0c8f5958fc2d6270
 indexexchange.com, 192829, RESELLER, 50b1c356f2c5c8f
+loopme.com, 11414, RESELLER, 6c8d5f95897a5a3b
+pubmatic.com, 161372, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160113, RESELLER, 5d62403b186f2ace
+bidmachine.io, 114, RESELLER
+bidmachine.io, 67, RESELLER
+mintegral.com, 10038, RESELLER
+yandex.com, 40427798, RESELLER
+liftoff.io, 7f6945815e6, RESELLER
+criteo.com, B-057955, RESELLER, 9fac4a4a87c2a44f
+inmobi.com, 062029933580429f9920bad476d8d70a, RESELLER, 83e75a7ae333ca9d
