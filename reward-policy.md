@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 permalink: "reward-policy/index.html"
 title: Reward Terms And Conditionss
 ---
