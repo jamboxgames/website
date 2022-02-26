@@ -94,7 +94,7 @@ p {
 /* Header Section CSS Start */
 
 .header-wrapper {
-  background-image: url(/resources/images/team-bg.png) !important;
+  background-image: url(/resources/images/team-bg.jpg) !important;
   background-size: cover;
   background-repeat: no-repeat;
 }
