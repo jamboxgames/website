@@ -11,17 +11,14 @@ tags:
 featured_post: true
 post_weight: 2.0
 layout: layouts/posts.njk
-cover: fund-raise-seed.jpg
-og_image: fund-raise-seed.jpg
+cover: fund-raise-seed.png
+og_image: fund-raise-seed.png
 author: Vikas Gulati
 author_title: Founder & CEO
 author_pic: vikas-gulati.jpg
 author_url: https://www.linkedin.com/in/vikasgulati/
 description: We have just raised $ 1.1 mn lead by Ludus Venture Studio.
 ---
-![]({{ site.url }}/img/fund-raise-seed.jpg)
-
-
 We are excited to announce our $ 1.1 million seed funding led by leading gaming investor,  [Ludus Venture Studio](https://www.luduscorp.com/) , along with other seasoned angel investors. With this,  [Ismet Goksen](https://www.linkedin.com/in/ismetgoksen/) , Managing Partner, Ludus Venture Studio, and an industry veteran joins our board. 
 
 In our  [last blog post](https://jambox.games/2021/04/13/why-we-are-building-jambox/) , we talked about a huge market opportunity in emerging Asia with Indie developers and what we are trying to accomplish with Jambox Games. In Ludus Venture Studio, we have found the best partner to join us in this mission. 

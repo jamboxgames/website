@@ -1,0 +1,136 @@
+---
+title: Book Demo for Jambox Arena
+keywords: Jambox, Games, Jambox games, publish game, Book Demo
+description: Turn your games into global hits
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'partials/header.njk' %}
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/resources/css/style.css" />
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="/resources/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Section HTML Start -->
+
+    <header class="header">
+      <div class="header-wrapper">
+        {% include 'partials/nav.njk' %}
+        <!-- Navigation Section End -->
+        <!-- Form Hero Section HTML Start -->
+        <section id="Form-hero">
+          <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-md-6">
+                <div class="form-hero-content">
+                  <h1>Level up with us</h1>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-hero-img">
+                  <img
+                    src="/resources/images/hero-img.png"
+                    alt="hero-img"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Form Hero Section HTML End -->
+      </div>
+    </header>
+
+    <!-- Header Section HTML End -->
+
+    <!-- Form Section HTML Start -->
+
+    <section id="Form">
+      <div class="container">
+        <div class="row">
+          <div class="form-wrapper">
+            <form action="https://games.us2.list-manage.com/subscribe/post?u=2f424a0817cc2284fdc987047&amp;id=2ada67a8de" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+              <div
+                class="input-group d-block d-md-flex justify-content-between align-items-center"
+              >
+                <div class="input-field">
+                  <label class="form-label" for="mce-FNAME">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your First Name"
+                    required value="" name="FNAME" id="mce-FNAME"
+                  />
+                </div>
+                <div class="input-field">
+                  <label class="form-label" for="mce-LNAME" >Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your First Name"
+                    required value="" name="LNAME" id="mce-LNAME"
+                  />
+                </div>
+              </div>
+              <div
+                class="input-group d-block d-md-flex justify-content-between align-items-center"
+              >
+                <div class="input-field">
+                  <label class="form-label">Email Address</label>
+                  <input
+                    type="eamil"
+                    class="form-control required email"
+                    placeholder="Enter Your Email Address"
+                    required value="" name="EMAIL"  id="mce-EMAIL"
+                  />
+                </div>
+                <div class="input-field">
+                  <label class="form-label">Phone Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Phone Number"
+                    required name="PHONE" value="" id="mce-PHONE"
+                  />
+                </div>
+              </div>
+              <div class="app-store mb-5">
+                <label class="form-label">App Store\Game play link</label>
+                <input
+                  class="form-control url"
+                  name="link"
+                  placeholder="Enter your App Store\Game play link"
+                  type="url" value="" name="MMERGE6" id="mce-MMERGE6"
+                />
+              </div>
+              <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2f424a0817cc2284fdc987047_2ada67a8de" tabindex="-1" value=""></div>
+              <button type="submit" class="submit-btn" type="submit" value="Subscribe" name="subscribe id="mc-embedded-subscribe">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section HTML End -->
+
+    {% include 'partials/footer.njk' %}
+
+    <!-- Bootstrap JS -->
+    <script src="/resources/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/resources/js/custom.js"></script>
+  </body>
+</html>

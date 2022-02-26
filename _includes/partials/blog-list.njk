@@ -1,25 +1,25 @@
-       <section>
-            <div class="blog-container">
-
-
-                <h2 class="fw-heavy">All Blogs</h2>
-                <div class="line bg-o"></div>
-                 {%- for post in collections.post | reverse -%}
-                 <a href="{{ post.url | url }}" > 
-                    <div class="blog-post-hero">
-                        <div class="blog-text">
-                            <h3 class=""> {{post.data.title}} </h3>
-                            <span class="blog-post-date">{{post.data.date |  htmlDateString   }}</span> 
-                            <p class="mt-1 light">
-                                    {{ post.data.description }} 
-                            </p>
-                        </div>
-                        <div class="blog-img">
-                            <img src="/img/{{post.data.cover}}" >
-                        </div>
-                    </div>
-                </a>
-                {%- endfor -%}
-                
-            </div>
-        </section>
+{%- for post in collections.post | reverse -%}
+  <div class="container">
+    <hr class="blog-line"/>
+    <div class="blog-date">
+      <p>{{ post.data.date |  htmlDateString }}</p>
+    </div>
+    <div class="row justify-content-between align-items-center">
+      <div class="col-md-6">
+        <div class="blog-content">
+          <h2>{{ post.data.title }}</h2>
+          <p>{{ post.data.description }}</p>
+          <div class="blog-btn">
+            <a class="d-flex" href="{{ post.url | url }}">Read More<i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="blog-img">
+          <img src="/resources/images/{{ post.data.cover }}"/>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endfor -%}

@@ -2,7 +2,13 @@
 permalink: /robots.txt
 eleventyExcludeFromCollections: true
 ---
+
+{% if "netlify" in site.url %}    
+User-agent: *
+Disallow: /
+{% else %}
 User-agent: *
 
 Disallow: /cgi-bin/
 Sitemap: {{site.url}}/sitemap.xml
+{% endif %}

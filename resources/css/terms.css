@@ -1,0 +1,242 @@
+/* Base CSS Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    background-color: #fff;
+  }
+  
+  /* Adding Fonts */
+  
+  /* Sailec Font */
+  
+  @font-face {
+    font-family: Sailec;
+    src: url(/resources/fonts/SailecLight.otf);
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: Sailec;
+    src: url(/resources/fonts/SailecRegular.otf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Sailec;
+    src: url(/resources/fonts/SailecMedium.otf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: Sailec;
+    src: url(/resources/fonts/SailecBold.otf);
+    font-weight: 700;
+  }
+  
+  /* Graphik Font */
+  
+  @font-face {
+    font-family: Graphik;
+    src: url(/resources/fonts/GraphikLight.otf);
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: Graphik;
+    src: url(/resources/fonts/GraphikRegular.otf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Graphik;
+    src: url(/resources/fonts/GraphikMedium.otf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: Graphik;
+    src: url(/resources/fonts/GraphikSemibold.otf);
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: Graphik;
+    src: url(/resources/fonts/GraphikBold.otf);
+    font-weight: 700;
+  }
+  
+  /* :root {
+                          --gray: #f5f5f5;
+                        } */
+  
+  a {
+    text-decoration: none;
+  }
+
+  nav .menu ul li a {
+    position: relative;
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Sailec;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  p {
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+  }
+  
+  /* Base Style End */
+  
+  /* Header Section CSS Start */
+  
+  .header-wrapper {
+    background-image: url(/resources/images/about-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  a.login-btn {
+    background: #000000;
+    color: #fff !important;
+    font-weight: 300 !important;
+    padding: 1.1rem 2.7rem;
+    margin-left: 18rem;
+    border-radius: 2.5rem;
+    transition: all 250ms;
+  }
+  a.login-btn:hover {
+    opacity: 0.8;
+  }
+  a.login-btn {
+    margin-left: 0;
+  }
+
+
+  /* privacy-policy */
+
+  #privacy-policy {
+    position: relative;
+    top: 200px;
+    height: auto;
+  }
+
+  .footer-wrapper {
+    margin-top: 150px;
+}
+
+.privacy-policy-text {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.paragraph {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+.subHeader {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#privacy-policy ul li {
+    list-style-type: disc;
+    font-size: 14px;
+
+}
+
+#privacy-policy p {
+    font-size: 14px;
+}
+
+
+  /* ============================= */
+  /* privacy-policy Page Responsive CSS */
+  /* ============================= */
+
+  
+  @media (min-width: 300px) and (max-width: 767px) {
+    /* Nav Css */
+    .logo img {
+      max-width: 8rem;
+    }
+    .about-hero-img {
+      padding-bottom: 5rem;
+    }
+    .about-hero-content {
+      padding: 3rem 0;
+      text-align: center;
+    }
+    .about-hero-content h1 {
+      font-size: 4rem;
+      text-align: center;
+      padding-left: 0;
+    }
+    .about-wrapper {
+      max-width: 90%;
+      padding: 5rem 3rem;
+      margin-top: -22rem;
+    }
+    #Advisor {
+      padding: 2rem 0;
+    }
+    .advisor-card:first-child {
+      margin-bottom: 10rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+      max-width: 9rem;
+    }
+    .about-hero-content {
+      padding-left: 3rem;
+    }
+    .about-hero-content h1 {
+      font-size: 4rem;
+    }
+    .about-wrapper {
+      max-width: 90%;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .about-wrapper {
+      max-width: 80%;
+    }
+  }
+  @media (min-width: 1415px) {
+    .about-hero-content h1 {
+      font-size: 6rem;
+      padding-bottom: 1rem;
+    }
+    section#About-hero {
+      padding-top: 25rem;
+      padding-bottom: 32rem;
+    }
+    .about-wrapper {
+      padding: 8rem 8rem;
+      margin-top: -16rem;
+    }
+    #Advisor {
+      padding: 5rem 0rem;
+    }
+  }
+  

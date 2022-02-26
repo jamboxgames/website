@@ -1,33 +1,53 @@
 ---
-layout: layouts/base.njk
 permalink: "{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}/{{ myslug | slug }}/index.html"
 ---
-<h1 class="blog-title fw-heavy">{{ title }}</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'partials/header.njk' %}
+    <!-- About CSS -->
+    <link rel="stylesheet" href="/resources/css/blogPost.css" />
+    
+  </head>
+  <body>
+    <!-- Header Section HTML Start -->
 
+    <header class="header">
+      <div class="header-wrapper">
+        {% include 'partials/nav.njk' %}
+      </div>
+    </header>
 
-<div class="bio-grid-container">
-  <div class="pic">
-  <a href="{{author_url}}"> 
-    <img class="blog-author-pic" src="/img/{{author_pic}}" alt="{{author}}">
-  </a>
-  </div>
-  <div class="name">
-  <a href="{{author_url}}"> 
-    <div class="blog-meta">{{author}}</div>
-  </a>
-  </div>
-  <div class="title">
-  <a href="{{author_url}}"> 
-    <div class="blog-meta">{{author_title}}</div>
-  </a>
-  </div>
-  <div class="blog-meta-date">
-    {{page.date | htmlDateString}}
-  </div>
+    <section id="title">
+        <div class="title-content">
+            <div class="titlecon">
+                <div class="head">
+         <h1 class="title-text">{{ title }}</h1>
+
+        <div class="date">
+            <i class="bi bi-calendar"></i>
+            <p class="date-text">{{page.date | htmlDateString}}</p>
+        </div>
+
+<img src="/resources/images/{{cover}}" class="blog-img">
 </div>
 
-<div class="line my-05 m-a"></div>
-<div class="post-content">
-  {{ content | safe }}
-</div>
-<div class="line bg-o m-a"></div>
+        <div id="blog-body">
+            {{ content | safe }}
+        </div>
+
+    </div>
+
+    </div>
+
+    </section>
+
+    {% include 'partials/footer.njk' %}
+
+    <!-- Bootstrap JS -->
+    <script src="/resources/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/resources/js/custom.js"></script>
+  </body>
+</html>

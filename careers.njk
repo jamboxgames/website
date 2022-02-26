@@ -4,97 +4,116 @@ keywords: Jambox, Games, Jambox games, Careers
 description: Jobs at Jambox Games. Turn your games into global hits
 og_image: og-career.jpg
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     {% include 'partials/header.njk' %}
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/aos.css">
-    <link rel="stylesheet" href="/css/main.css">
-</head>
+    <!-- Career CSS -->
+    <link rel="stylesheet" href="/resources/css/career.css" />
+  </head>
+  <body>
+    <!-- Header Section HTML Start -->
 
-<body>
-    <div class="body-inner">
-       {% include 'partials/stickybtn.njk' %}
+    <header class="header">
+      <div class="header-wrapper">
         {% include 'partials/nav.njk' %}
-        <div class="small-header">
-            <div class="container">
-                <div class="header-inner">
-                    <h1 data-aos="fade-right"><span class="c-b">Jambox Games</span> <span class="c-o">Careers</span></h1>
-                    </p>
+        <!-- Navigation Section End -->
+        <!-- Career Hero Section HTML Start -->
+        <section id="Career-hero">
+          <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-md-6">
+                <div class="career-hero-content">
+                  <h1 class="text-white">We Are Hiring Rockstars</h1>
+                  <p class="text-white">
+                    Join The Fastest Growing Gaming Platform In Asia
+                  </p>
                 </div>
-            </div>
-            <div id="particlesHeader">
-
-            </div>
-        </div>
-        
-        <section>
-            <div class="blog-container wide">
-                <div class="blog-grid">
-                            
-                            {%- for post in collections.jobs | reverse -%}
-                            
-                            <div class="blog-post">
-                            <a href="{{ post.url | url }}" > 
-                                <div class="glide__slide blog-post glide__slide--clone" >
-                                    <div class="blog">
-                                        <div class="blog-text">
-                                            <h3 class=""> {{ post.data.title }} </h3>
-                                            <div class="blog-post-meta"> Team: {{post.data.team }}</div> 
-                                            <div class="blog-post-meta"> Location: {{post.data.location }}</div> 
-                                            <p class="mt-1 light">
-                                                 {{ post.data.description }} 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </a>
-                            </div>
-                            {%- endfor -%}
-   
+              </div>
+              <div class="col-md-6">
+                <div class="career-hero-img">
+                  <img
+                    src="/resources/images/career-hero.png"
+                    alt="hero-img"
+                    loading="lazy"
+                  />
                 </div>
+              </div>
             </div>
+          </div>
         </section>
 
-{% include 'partials/footer.njk' %}
-    <script>
-        let isAtTop = true;
+        <!-- Career Hero Section HTML End -->
+      </div>
+    </header>
 
-        const btn = document.querySelector('.stickyBtn');
-        window.addEventListener('load', () => {
-            btn.classList.remove('active');
-            btn.style.height = btn.offsetWidth + 'px';
-            btn.style.opacity = 1;
-        });
+    <!-- Header Section HTML End -->
 
-        btn.addEventListener('mouseenter', () => {
-            btn.classList.add('active');
-        });
+    <!-- Career Open Section Start -->
 
-        window.addEventListener("scroll", (event) => {
-            let scroll = this.scrollY;
-            if (scroll > 0) {
-                btn.classList.add('active');
-                isAtTop = false;
-            } else {
-                btn.classList.remove('active');
-                isAtTop = true;
-            };
-        });
+    <section id="Career-open">
+      <div class="container">
+        <div class="career-title">
+          <h2>Open</h2>
+        </div>
+        <div class="career-grid">
+          {%- for post in collections.jobs | reverse -%} 
+            {% if "open" in post.data.status %}
+              <a href="{{ post.url | url }}">
+                <div class="career-open-box">
+                  <span class="span-blue"></span>
+                  <h5>Team: {{ post.data.team }}</h5>
+                  <h3>{{ post.data.title }}</h3>
+                  <div class="career-location">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p>{{ post.data.location }}</p>
+                  </div>
+                </div>
+              </a>
+            {% endif %}
+          {%- endfor -%}
+        </div>
+      <div>
+    </section>
 
-        btn.addEventListener('mouseleave', () => {
-            if (isAtTop = true) {
-                btn.classList.remove('active');
-            };
-        });
-        window.addEventListener('load', () => {
-            let tag3 = document.createElement("script");
-            tag3.src = "/js/games.js";
-            document.getElementsByTagName("head")[0].appendChild(tag3);
-        })
-    </script>
-</body>
+    <!-- Career Open Section End -->
 
+    <!-- Career Closed Section Start -->
+
+    <section id="Career-closed">
+      <div class="container">
+        <div class="career-title">
+          <h2>Closed</h2>
+        </div>
+        <div class="career-grid">
+          {%- for post in collections.jobs | reverse -%} 
+            {% if "closed" in post.data.status %}
+              <a href="{{ post.url | url }}">
+                <div class="career-open-box">
+                  <span class="span-orange"></span>
+                  <h5>Team: {{ post.data.team }}</h5>
+                  <h3>{{ post.data.title }}</h3>
+                  <div class="career-location">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p>{{ post.data.location }}</p>
+                  </div>
+                </div>
+              </a>
+            {% endif %}
+          {%- endfor -%}
+        </div>
+      </div>
+    </section>
+
+    <!-- Career Closed Section End -->
+
+    {% include 'partials/footer.njk' %}
+
+    <!-- Bootstrap JS -->
+    <script src="/resources/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/resources/js/custom.js"></script>
+  </body>
 </html>

@@ -1,0 +1,312 @@
+/* Base CSS Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #fff;
+}
+
+/* Adding Fonts */
+
+/* Sailec Font */
+
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecLight.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecRegular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecMedium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecBold.otf);
+  font-weight: 700;
+}
+
+/* Graphik Font */
+
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikLight.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikRegular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikMedium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikSemibold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikBold.otf);
+  font-weight: 700;
+}
+
+/* :root {
+      --gray: #f5f5f5;
+    } */
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+}
+
+/* Base Style End */
+
+/* Header Section CSS Start */
+
+.header-wrapper {
+  background-image: url(/resources/images/team-bg.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a.login-btn {
+  background: #325ba6;
+  color: #fff !important;
+  font-weight: 300 !important;
+  padding: 1.1rem 2.7rem;
+  margin-left: 18rem;
+  border-radius: 2.5rem;
+  transition: all 250ms;
+}
+a.login-btn:hover {
+  opacity: 0.8;
+}
+a.login-btn {
+  margin-left: 0;
+}
+
+/* Header Section CSS End */
+
+/* Team Hero Section CSS Start */
+
+section#Team-hero {
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+
+.team-hero-content h1 {
+  font-family: "Sailec";
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.team-hero-content p {
+  font-family: "Graphik";
+  font-weight: 300;
+}
+.team-hero-img {
+  max-width: 65%;
+  margin: auto;
+}
+
+/* Team Hero Section CSS End */
+
+/* Team Section CSS Start */
+
+section#Team {
+  margin-top: 12rem;
+}
+
+.team-card {
+  position: relative;
+  max-width: 65%;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.team-card:hover {
+  transform: translateY(-1rem);
+}
+.team-card-img {
+  position: relative;
+}
+
+.team-card-img::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #ff842d 0%, #8d280e 100%);
+  border-radius: 2rem;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.team-card:hover .team-card-img::after {
+  opacity: 0.75;
+}
+.team-card-info {
+  position: absolute;
+  top: 14%;
+  padding: 0 2rem;
+  z-index: 1;
+  text-align: center;
+  transform: translateY(1.5rem);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-card:hover .team-card-info {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.team-card-info p {
+  font-family: "Graphik";
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  padding-bottom: 1rem;
+}
+.team-card-content {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.team-card-content h3 {
+  font-family: "Sailec";
+  font-weight: 700;
+  font-size: 2rem;
+}
+.team-card-info a i {
+  font-size: 2.5rem;
+  background: #fff;
+  color: #414141;
+  padding: 1rem 1.4rem;
+  border-radius: 5rem;
+}
+
+/* Team Section CSS End */
+
+/* ============================= */
+/* Team Page Responsive CSS */
+/* ============================= */
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .team-card {
+    max-width: 80% !important;
+  }
+  .team-card-info {
+    top: -1rem !important;
+  }
+  .team-card-info p {
+    padding-bottom: 0;
+  }
+  .team-card-info {
+    margin-top: -2rem !important;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .team-card {
+    max-width: 60% !important;
+  }
+  .team-card-info {
+    top: 20% !important;
+  }
+}
+@media (min-width: 300px) and (max-width: 767px) {
+  /* Nav Css */
+  .logo img {
+    max-width: 8rem;
+  }
+  .team-hero-img {
+    padding-bottom: 5rem;
+  }
+  .team-hero-content {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .team-hero-content h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 0;
+  }
+  .team-card {
+    max-width: 55%;
+  }
+  .team-card-info {
+    top: 30%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    max-width: 9rem;
+  }
+  .team-hero-content {
+    padding-left: 3rem;
+  }
+  .team-hero-content h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 903px) {
+  .team-card {
+    max-width: 100%;
+  }
+  .team-card-info {
+    top: 16%;
+  }
+}
+@media (min-width: 903px) and (max-width: 1200px) {
+  .team-card {
+    max-width: 80%;
+  }
+}
+@media (min-width: 1480px) {
+  .team-hero-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+  section#Team-hero {
+    padding-bottom: 28rem;
+  }
+  .team-card-info {
+    top: 27%;
+  }
+}

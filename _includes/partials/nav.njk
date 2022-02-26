@@ -1,74 +1,33 @@
- <nav id="visible" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="/">
-                        <img src="/img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="s-r links">
-                        <p><a class="{{ 'bold' if '/about' in page.url }}" href="/about">About</a></p>
-                        <p><a class="{{ 'bold' if '/games' in page.url }}" href="/games">Games</a></p>
-                        <p><a class="{{ 'bold' if '/team' in page.url }}" href="/team">Team</a></p>
-                        <p><a class="{{ 'bold' if '/careers' in page.url }}" href="/careers">Careers</a></p> 
-                        <p><a class="{{ 'bold' if '/blog' in page.url }}" href="/blog">Blog</a></p> 
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav id="hidden" class="desktop">
-            <div class="container">
-                <div class="nav-inner">
-                    <a href="/">
-                        <img src="/img/logo.svg" alt="Jambox Games">
-                    </a>
-                    <div class="s-r links">
-                        <p><a class="{{ 'bold' if '/about' in page.url }}" href="/about">About</a></p>
-                        <p><a class="{{ 'bold' if '/games' in page.url }}" href="/games">Games</a></p>
-                        <p><a class="{{ 'bold' if '/team' in page.url }}" href="/team">Team</a></p>
-                        <p><a class="{{ 'bold' if '/careers' in page.url }}" href="/careers">Careers</a></p> 
-                        <p><a class="{{ 'bold' if '/blog' in page.url }}" href="/blog">Blog</a></p> 
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="visible">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="/">
-                            <img src="/img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="/img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                        <p><a class="{{ 'bold' if '/about' in page.url }}" href="/about">About</a></p>
-                        <p><a class="{{ 'bold' if '/games' in page.url }}" href="/games">Games</a></p>
-                        <p><a class="{{ 'bold' if '/team' in page.url }}" href="/team">Team</a></p>
-                        <p><a class="{{ 'bold' if '/careers' in page.url }}" href="/careers">Careers</a></p> 
-                        <p><a class="{{ 'bold' if '/blog' in page.url }}" href="/blog">Blog</a></p> 
-                </div>
-            </div>
-        </nav>
-        <nav class="mobile" id="hidden">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <div class="nav-inner">
-                        <a href="/">
-                            <img src="/img/logo.svg" alt="Company name here">
-                        </a>
-                        <div class="hamburger">
-                            <img src="/img/nav.png" alt="menu">
-                        </div>
-                    </div>
-                </div>
-                <div class="links s-r">
-                        <p><a class="{{ 'bold' if '/about' in page.url }}" href="/about">About</a></p>
-                        <p><a class="{{ 'bold' if '/games' in page.url }}" href="/games">Games</a></p>
-                        <p><a class="{{ 'bold' if '/team' in page.url }}" href="/team">Team</a></p>
-                        <p><a class="{{ 'bold' if '/careers' in page.url }}" href="/careers">Careers</a></p> 
-                        <p><a class="{{ 'bold' if '/blog' in page.url }}" href="/blog">Blog</a></p>  
-                </div>
-            </div>
-        </nav>
+        <div class="header-nav">
+          <div class="container">
+            <!-- Navigation Section Start -->
+            <nav>
+              <div class="logo">
+                <a href="#"
+                  ><img
+                    src="/resources/images/logo.png"
+                    alt="logo"
+                    loading="lazy"
+                /></a>
+              </div>
+              <button class="menu-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="menu">
+                <ul>
+                  <li><a href="/index">home</a></li>
+                <li><a href="/arena">arena</a></li>
+                <li><a href="/games">games</a></li>
+                <li><a href="/team">team</a></li>
+                <li><a href="/careers">careers</a></li>
+                <li><a href="/about">about</a></li>
+                <li><a href="/blog">blog</a></li>
+                  <li><a class="login-btn" href="https://app.jambox.games/login">login</a></li>
+                </ul>
+              </div>
+            </nav>
+        <!-- Navigation Section End -->
+          </div>
+        </div>

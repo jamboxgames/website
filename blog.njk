@@ -5,69 +5,63 @@ description: Turn your games into global hits
 ---
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     {% include 'partials/header.njk' %}
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/aos.css">
-    <link rel="stylesheet" href="/css/main.css">
-</head>
 
-<body>
-    <div class="body-inner">
-       {% include 'partials/stickybtn.njk' %}
+    <!-- Blog CSS -->
+    <link rel="stylesheet" href="/resources/css/blog.css" />
+  </head>
+  <body>
+    <!-- Header Section HTML Start -->
+
+    <header class="header">
+      <div class="header-wrapper">
         {% include 'partials/nav.njk' %}
-        <div class="small-header">
-            <div class="container">
-                <div class="header-inner">
-                    <h1 data-aos="fade-right"><span class="c-b">Jambox Games </span> <span class="c-o">Blog</span></h1>
-                    </p>
+
+        <!-- Blog Hero Section HTML Start -->
+
+        <section id="Blog-hero">
+          <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-md-6">
+                <div class="blog-hero-content">
+                  <h1 class="text-white">Recent Press & Articles</h1>
                 </div>
+              </div>
+              <div class="col-md-6">
+                <div class="blog-hero-img">
+                  <img
+                    src="/resources/images/blog-hero.png"
+                    alt="hero-img"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
             </div>
-            <div id="particlesHeader">
+          </div>
+        </section>
 
-            </div>
-        </div>
+        <!-- Blog Hero Section HTML End -->
+      </div>
+    </header>
 
-       {% include 'partials/blog-list.njk' %}
-     
-{% include 'partials/footer.njk' %}
-    <script>
-        let isAtTop = true;
+    <!-- Header Section HTML End -->
 
-        const btn = document.querySelector('.stickyBtn');
-        window.addEventListener('load', () => {
-            btn.classList.remove('active');
-            btn.style.height = btn.offsetWidth + 'px';
-            btn.style.opacity = 1;
-        });
+    <!-- Blog Section HTML Start -->
 
-        btn.addEventListener('mouseenter', () => {
-            btn.classList.add('active');
-        });
+    <section id="Blog">
+      {% include 'partials/blog-list.njk' %}
+    </section>
 
-        window.addEventListener("scroll", (event) => {
-            let scroll = this.scrollY;
-            if (scroll > 0) {
-                btn.classList.add('active');
-                isAtTop = false;
-            } else {
-                btn.classList.remove('active');
-                isAtTop = true;
-            };
-        });
 
-        btn.addEventListener('mouseleave', () => {
-            if (isAtTop = true) {
-                btn.classList.remove('active');
-            };
-        });
-        window.addEventListener('load', () => {
-            let tag3 = document.createElement("script");
-            tag3.src = "/js/games.js";
-            document.getElementsByTagName("head")[0].appendChild(tag3);
-        })
-    </script>
-</body>
+    <!-- Blog Section HTML End -->
 
+    {% include 'partials/footer.njk' %}
+
+    <!-- Bootstrap JS -->
+    <script src="/resources/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/resources/js/custom.js"></script>
+  </body>
 </html>

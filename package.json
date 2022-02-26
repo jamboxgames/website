@@ -1,5 +1,5 @@
 {
-  "name": "jambox-website",
+  "name": "jambox-new-website-master",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,18 +9,12 @@
     "prod": "clear;rm -rf _site/;ELEVENTY_ENV=production npx @11ty/eleventy",
     "stage": "clear;rm -rf _site/;ELEVENTY_ENV=staging npx @11ty/eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamboxgames/website.git"
-  },
-  "keywords": [],
-  "author": "ravi vyas",
+  "author": "ravi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jamboxgames/website/issues"
-  },
-  "homepage": "https://github.com/jamboxgames/website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "luxon": "^2.2.0"
   }
 }

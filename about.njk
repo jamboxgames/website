@@ -5,157 +5,176 @@ description: A team of gaming and ad tech enthusiast</span> have come together t
 ---
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     {% include 'partials/header.njk' %}
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/aos.css">
-</head>
+    <!-- About CSS -->
+    <link rel="stylesheet" href="/resources/css/about.css" />
+  </head>
+  <body>
+    <!-- Header Section HTML Start -->
 
-<body>
-
-    <div class="body-inner">
-       {% include 'partials/stickybtn.njk' %}
-       {% include 'partials/nav.njk' %}
-        <header>
-            <div class="container">
-                <div class="header-inner">
-                    <h1 data-aos="fade-right">Who <span class="c-b">We</span> <span class="c-o">Are</span></h1>
-                    <p data-aos="fade-up" data-aos-delay="100" class="s-xl mt-2"><span class="c-o">A team of gaming and ad tech enthusiast</span> have come together to build <span class="c-b">the next generation competitive game publishing platform</span>
-                    </p>
+    <header class="header">
+      <div class="header-wrapper">
+        {% include 'partials/nav.njk' %}
+        <!-- About Hero Section HTML Start -->
+        <section id="About-hero">
+          <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-md-6">
+                <div class="about-hero-content">
+                  <h1 style="font-size: 4rem;"class="text-white"> B2B platform for game developers to grow, engage, retain and monetize their games</h1>
+                  <p class="text-white">
+                   
+                  </p>
                 </div>
-            </div>
-            <div id="particlesHeader">
-
-            </div>
-        </header>
-
-        <section class="t-c">
-            <div class="container">
-                <div class="mxw-800 m-a">
-                    <p class="s-xl">Jambox Games is a data driven platform for game developers to acquire, retain, engage, reward and monetize users. Well designed games with awesome user experience powered by data science and deep capabilities in user engagement, marketing,
-                        acquisition and monetization are the secret sauce behind chart-topping games. It's as simple as that!
-                    </p>
+              </div>
+              <div class="col-md-6">
+                <div class="about-hero-img">
+                  <img
+                    src="/resources/images/about-hero.png"
+                    alt="hero-img"
+                    loading="lazy"
+                  />
                 </div>
+              </div>
             </div>
+          </div>
         </section>
 
-        <section class="investor t-c">
-            <div class="container">
-                <h2 class="t-c h2-s c-g">Investors</h2>
-                <div class="line bg-o m-a"></div>
-                <div class="ia-wrapper mt-2">
-                    <div>
-                        <a href="https://www.luduscorp.com/">
-                            <div data-aos="fade-up" class="ia-card">                    
-                                        <div class="ia-img m-a">
-                                            <img src="/img/LUDUS-venture-studio-logo.jpg" alt="ludus venture studio logo">
-                                        </div>
-                                        <div>
-                                            <p class="s-xl">Ludus Venture Studio
-                                            </p>
-                                            <div class="line my-05 line-s bg-o m-a"></div>
-                                        </div>
-                                        <p class="light">Turkey</p>
+        <!-- About Hero Section HTML End -->
+      </div>
+    </header>
 
-                                    </div>
-                        </a>
+    <!-- Header Section HTML End -->
+
+    <!-- About Section HTML Start -->
+
+   <section id="About">
+      <div class="container">
+        <div class="about-wrapper">
+
+          <h1>Who We Are</h1>
+          <br>
+          <p class="text-dark">
+            Jambox Games provides technology infrastructure and growth kit for game developers to turn their games into hits. We enable social and competitive multiplayer experiences in games that users love to play again and again. Learn more about our <a href="games.html"> Arena and Rewards Platform.</a>  
+
+            <br>
+            <br>
+
+            A team of gaming and adtech enthusiasts have come together to build the next generation competitive game publishing platform.
+
+            <br>
+            <br>
+
+            Find out more about our <a href="games.html"> games here.</a>  
+          </p>
+          <img src="/resources/images/about-content-bg.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section HTML End -->
+
+    <!-- Investor Section HTML Start -->
+
+    <section id="Investor">
+      <div class="container">
+        <a href="https://www.ludus.vc/" target="_blank">
+        <div class="investor-wrapper">
+          <h2>Our Investor</h2>
+          <img
+            src="/resources/images/Investors.png"
+            alt="Investors"
+            loading="lazy"
+          />
+          <h4>Ludus Venture Studio</h4>
+          <div class="investor-location">
+            <i class="bi bi-geo-alt-fill"></i>
+            <p>Turkey</p>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="investor-bg1">
+        <img src="/resources/images/investor-bg1.png" alt="investor-bg1" />
+      </div>
+      <div class="investor-bg2">
+        <img src="/resources/images/investor-bg2.png" alt="investor-bg2" />
+      </div>
+    </section>
+
+    <!-- Investor Section HTML End -->
+
+    <!-- Advisor Section HTML Start -->
+
+    <section id="Advisor">
+      <div class="advisor-wrapper">
+        <h2>Advisors</h2>
+        <div class="container">
+          <div class="row justify-content-around align-content-center">
+            <div class="col-md-6">
+              <div class="advisor-card">
+                <img
+                  src="/resources/images/ChesterNg.png"
+                  alt="ChesterNg"
+                  loading="lazy"
+                />
+                <div class="advisor-info">
+                  <div class="advisor-info-img">
+                    <img
+                      src="/resources/images/advisor1.png"
+                      alt="advisor1"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="advisor-info-content">
+                    <h3>Chester Ng</h3>
+                    <div class="advisor-loc">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <p>Singapore</p>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="advisor t-c">
-            <div class="container">
-                <h2 class="t-c h2-s c-g">Advisors</h2>
-                <div class="line my-05 m-a"></div>
-                <div class="ia-wrapper mt-2">
-                    <div>
-                        <a target="_blank" href="https://www.linkedin.com/in/chesternwj/">
-                            <div data-aos="fade-up" class="ia-card">
-                                <div class="ia-img m-a">
-                                    <img src="/img/advisor1.jpg" alt="advisor">
-                                </div>
-
-                                <div>
-                                    <p class="s-xl"> Chester Ng
-                                    </p>
-                                    <div class="line my-05 m-a line-s"></div>
-                                </div>
-
-                                <div>
-
-                                    <p class="s-r">Unity</p>
-                                    <p class="mt-05 light">Singapore</<p>
-                                </div>
-                            </div>
-                        </a>
+            <div class="col-md-6">
+              <div class="advisor-card">
+                <img
+                  src="/resources/images/AaronChan.png"
+                  alt="AaronChan"
+                  loading="lazy"
+                />
+                <div class="advisor-info">
+                  <div class="advisor-info-img">
+                    <img
+                      src="/resources/images/advisor2.png"
+                      alt="advisor2"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="advisor-info-content">
+                    <h3>Aaron Chan</h3>
+                    <div class="advisor-loc">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <p>Singapore</p>
                     </div>
-                    <div>
-                        <a target="_blank" href="https://www.linkedin.com/in/aaronchanjl/">
-                            <div data-aos="fade-up" class="ia-card">
-                                <div class="ia-img m-a">
-                                    <img src="/img/advisor2.jpg" alt="advisor">
-                                </div>
-
-                                <div>
-
-                                    <p class="s-xl">Aaron Chan</p>
-                                    <div class="line my-05 m-a line-s"></div>
-                                </div>
-                                <div>
-                                    <p class="s-r">Appier
-                                    </p>
-                                    <p class="mt-05 light">Singapore</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <div class="my-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        {% include 'partials/footer.njk' %}
+    <!-- Advisor Section HTML End -->
 
-    <script>
-        let isAtTop = true;
+    {% include 'partials/footer.njk' %}
 
-        const btn = document.querySelector('.stickyBtn');
-        window.addEventListener('load', () => {
-            btn.classList.remove('active');
-            btn.style.height = btn.offsetWidth + 'px';
-            btn.style.opacity = 1;
-        })
+    <!-- Bootstrap JS -->
+    <script src="/resources/js/bootstrap.min.js"></script>
 
-        btn.addEventListener('mouseenter', () => {
-            btn.classList.add('active');
-        })
-
-        window.addEventListener("scroll", (event) => {
-            let scroll = this.scrollY;
-            if (scroll > 0) {
-                btn.classList.add('active');
-                isAtTop = false;
-            } else {
-                btn.classList.remove('active');
-
-                isAtTop = true;
-            }
-        });
-
-        btn.addEventListener('mouseleave', () => {
-            if (isAtTop = true) {
-                btn.classList.remove('active');
-            }
-        })
-        window.addEventListener('load', () => {
-            let tag3 = document.createElement("script");
-            tag3.src = "/js/about.js";
-            document.getElementsByTagName("head")[0].appendChild(tag3);
-        })
-    </script>
-
-</body>
-
+    <!-- Custom JS -->
+    <script src="/resources/js/custom.js"></script>
+  </body>
 </html>

@@ -11,17 +11,14 @@ tags:
 featured_post: true
 post_weight: 1.0
 layout: layouts/posts.njk
-cover: team_jambox.jpg
-og_image: team_jambox.jpg
+cover: team_jambox.png
+og_image: team_jambox.png
 author: Vikas Gulati
 author_title: Founder & CEO
 author_pic: vikas-gulati.jpg
 author_url: https://www.linkedin.com/in/vikasgulati/
 description: Today's mobile game developers can't compete with global giants, Which is why we are building Jambox Games
 ---
-![]({{ site.url }}/img/team_jambox.jpg)
-
-
 The power of the Smartphone is nonpareil, demonstrated by the mobile gaming industry which stands at $85 B in 2020, an industry which is [still growing at record pace](https://venturebeat.com/2021/04/05/sensor-tower-mobile-game-spending-hit-22-2b-in-2021-q1-up-25-from-2020/) every quarter. I find myself honoured to have worked in this industry for the last decade. 
 
 The mobile gaming industry is dominated by global giants. Think Tencent, King, Supercell, Playrix, Zynga, Peak and others. Top 1% of the Game Publishers and Developers make over 90% of all the revenue and downloads in gaming. Most Indie game developers in Asia struggle to scale their games and compete against global incumbents. 

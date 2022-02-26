@@ -1,0 +1,236 @@
+---
+title: Arena | Jambox Games - Next Gen Competitive Game Publishing Platform
+keywords: Jambox, Games, Jambox games, Arena, Jambox Arena
+description: Power-up your mobile games
+og_image: og-home.jpg
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'partials/header.njk' %}
+
+    <!-- Arena CSS -->
+    <link rel="stylesheet" href="/resources/css/arena.css" />
+
+    
+  </head>
+  <body>
+    <!-- Header Section HTML Start -->
+
+    <header class="header">
+      <div class="header-wrapper">
+        {% include 'partials/nav.njk' %}
+        <!-- Arena Hero Section HTML Start -->
+        <section id="Arena-hero">
+          <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-md-6">
+                <div class="arena-hero-content position-relative">
+                  <h1 class="typing"></h1>
+                  <p id="type" class="text-white"></p>
+                  <div class="arena-btn">
+                    <a href="/form">Get Started</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="arena-hero-img">
+                  <img
+                    src="/resources/images/arena-hero.png"
+                    alt="hero-img"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Arena Hero Section HTML End -->
+      </div>
+    </header>
+
+    <!-- Header Section HTML End -->
+
+    <!-- Arena Section HTML Start -->
+
+    <section id="Arena">
+      <div class="container">
+        <div
+          class="row arena-wrapper d-flex justify-content-between align-items-center"
+        >
+          <div class="col-md-6">
+            <div class="arena-img async-bg">
+                <video width="300" height="620" autoplay muted loop playsinline poster="">
+                  <source src="/resources/videos/Arena-Sdk.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="arena-content">
+              <h2>Async Replay</h2>
+              <p>
+                Forget static leaderboards, Async Replay™ allows you to give
+                your players 99% of the multiplayer experience at 1% of the
+                effort. From Replaying the entire game to showing score, Async
+                Replay has you covered
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row arena-wrapper d-flex justify-content-between align-items-center flex-column-reverse flex-md-row"
+        >
+          <div class="col-md-6">
+            <div class="arena-content">
+              <h2>Competitive Formats</h2>
+              <p>
+                With the ability Create Custom Tournaments, Instant Duels, And
+                User Generated Friendly Matches, Arena Gives your players the
+                complete multiplayer experience. Challenge and Motivate Your
+                Players To Play More.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="arena-img cmp-frmts-bg">
+                              <video width="300" height="620" autoplay muted loop playsinline poster="">
+                  <source src="/resources/videos/Competitive-Formats.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row arena-wrapper d-flex justify-content-between align-items-center"
+        >
+          <div class="col-md-6">
+            <div class="arena-img match-cap-bg">
+                              <video width="300" height="620" autoplay muted loop playsinline poster="">
+                  <source src="/resources/videos/match-capabilities.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="arena-content">
+              <h2>Match Making Capabilities</h2>
+              <p>
+                To make sure your players have the best competitive experience,
+                Match Making is supported out of the box.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row arena-wrapper d-flex justify-content-between align-items-center flex-column-reverse flex-md-row"
+        >
+          <div class="col-md-6">
+            <div class="arena-content">
+              <h2>Fully Managed Infrastructure & Live Ops Management</h2>
+              <p>
+                No servers to build or manage, focus on building your game. Live
+                Ops dashboard to create and manage all events such as
+                tournaments, duels and rewards for your players. You can set up
+                recurring daily, weekly or monthly formats and manage rewards
+                from the admin panel. Arena will get you started within 1 day.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="arena-img">
+                            <video class="laptop-video" autoplay muted loop playsinline poster="">
+                  <source src="/resources/videos/laptop.mp4" type="video/mp4">
+                </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arena Section HTML End -->
+
+    <!-- Before After Section HTML Start -->
+
+    <section id="Before-after">
+      <div class="container">
+        <div
+          class="row before-after-wrapper d-flex justify-content-center align-items-center"
+        >
+          <div class="col-md-6 before">
+            <div class="before-title">before</div>
+            <div class="before-img">
+                             <video autoplay muted loop>
+                <source
+                  src="/resources/videos/BlockPuzzle_Before.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+          <div class="col-md-6 after">
+            <div class="after-title">after</div>
+            <div class="after-img">
+              <video autoplay muted loop>
+                <source
+                  src="/resources/videos/BlockPuzzle_After.mp4"
+                  type="video/mp4"
+                />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before After Section HTML End -->
+
+    {% include 'partials/footer.njk' %}
+
+    <!-- Bootstrap JS -->
+    <script src="/resources/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/resources/js/custom.js"></script>
+
+    <script>
+      var i = 0;
+      var text =
+        "                                                                                                                 Competitive Formats + Async Multiplay™ + Match Making + Rewards";
+
+      var speed = 75;
+      function type() {
+        document.getElementById("type").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(type, speed);
+      }
+      type();
+
+      const texts = [
+        "Why Make Boring Single Player Games...           ",
+        "Turn your game into competitive multiplayer in less than a day!                                                                                                                               ",
+      ];
+      let count = 0;
+      let index = 0;
+      let currentText = "";
+      let letter = "";
+
+      (function type() {
+        if (count === texts.length) {
+          count = 0;
+        }
+
+        currentText = texts[count];
+        letter = currentText.slice(0, ++index);
+
+        document.querySelector(".typing").textContent = letter;
+
+        if (letter.length === currentText.length) {
+          count++;
+          index = 0;
+        }
+
+        setTimeout(type, 75);
+      })();
+    </script>
+
+
+  </body>
+</html>

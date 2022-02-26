@@ -1,0 +1,380 @@
+/* Base CSS Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #fff;
+
+}
+
+/* Adding Fonts */
+
+/* Sailec Font */
+
+@font-face {
+  font-family: Sailec;
+  src: url(../fonts/SailecLight.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(../fonts/SailecRegular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(../fonts/SailecMedium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(../fonts/SailecBold.otf);
+  font-weight: 700;
+}
+
+/* Graphik Font */
+
+@font-face {
+  font-family: Graphik;
+  src: url(../fonts/GraphikLight.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(../fonts/GraphikRegular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(../fonts/GraphikMedium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(../fonts/GraphikSemibold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(../fonts/GraphikBold.otf);
+  font-weight: 700;
+}
+
+/* :root {
+                        --gray: #f5f5f5;
+                      } */
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+}
+
+/* Base Style End */
+
+/* Header Section CSS Start */
+
+.header-wrapper {
+  background-image: url(../images/about-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a.login-btn {
+  background: #6b16b9;
+  color: #fff !important;
+  font-weight: 300 !important;
+  padding: 1.1rem 2.7rem;
+  margin-left: 18rem;
+  border-radius: 2.5rem;
+  transition: all 250ms;
+}
+a.login-btn:hover {
+  opacity: 0.8;
+}
+a.login-btn {
+  margin-left: 0;
+}
+
+/* Header Section CSS End */
+
+/* About Hero Section CSS Start */
+
+section#About-hero {
+  padding-top: 17rem;
+  padding-bottom: 21rem;
+}
+
+.about-hero-content h1 {
+  font-family: "Sailec";
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.about-hero-content p {
+  font-family: "Graphik";
+  font-weight: 300;
+}
+.about-hero-img {
+  max-width: 65%;
+  margin: auto;
+}
+
+.about-wrapper h1 {
+  text-align: center;
+  font-family: "Sailec";
+  font-weight: 600;
+}
+
+
+/* About Hero Section CSS End */
+
+/* About Section CSS Start */
+
+.about-wrapper {
+  position: relative;
+  background: #fff;
+  padding: 5rem 8rem;
+  max-width: 70%;
+  margin: auto;
+  margin-top: -12rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.about-wrapper p {
+  font-family: "Graphik";
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.about-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* About Section CSS End */
+
+/* Investor Section CSS Start */
+
+section#Investor {
+  position: relative;
+  height: 48rem;
+  overflow: hidden;
+  margin-top: 12rem;
+}
+
+.investor-bg1 {
+  position: absolute;
+  left: 0;
+  top: 9.5rem;
+  z-index: -1;
+}
+.investor-bg2 {
+  position: absolute;
+  right: -20rem;
+  top: 9.5rem;
+  z-index: -1;
+}
+.investor-bg1 img,
+.investor-bg2 img {
+  max-width: 65%;
+}
+.investor-wrapper {
+  background: #fff;
+  color: black;
+  box-shadow: 0px 30px 150px rgba(115, 67, 153, 0.15);
+  border-radius: 30px;
+  max-width: 40rem;
+  margin: auto;
+  padding: 3rem;
+  text-align: center;
+}
+
+.investor-wrapper h2 {
+  font-family: "Sailec";
+  font-weight: 600;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.investor-wrapper img {
+  max-width: 55%;
+}
+
+.investor-wrapper h4 {
+  font-family: "Sailec";
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+.investor-location {
+  display: flex;
+  justify-content: center;
+}
+
+.investor-location p {
+  font-family: "Graphik";
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 0.3rem;
+}
+
+/* Investor Section CSS End */
+
+/* Advisor Section CSS Start */
+
+#Advisor {
+  background: linear-gradient(#f7effffa, #f7effffa),
+    url(../images/advisor-bg.png);
+  background-size: cover;
+  padding: 8rem 0rem;
+}
+.advisor-wrapper h2 {
+  font-family: "Sailec";
+  font-weight: 600;
+  font-size: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.advisor-card img {
+  position: relative;
+}
+.advisor-info-img {
+  margin-right: 1.5rem;
+}
+.advisor-info {
+  position: absolute;
+  background: white;
+  display: flex;
+  align-items: center;
+  left: 2rem;
+  bottom: -2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 8px 20px 34px rgba(7, 7, 7, 0.1);
+}
+
+.advisor-card {
+  position: relative;
+  max-width: 25rem;
+  margin: auto;
+  text-align: left;
+}
+
+.advisor-info-content h3 {
+  font-family: Sailec;
+}
+
+.advisor-loc {
+  display: flex;
+  line-height: 1;
+}
+
+.advisor-loc p {
+  font-family: Graphik;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #2d3740d9;
+  padding-left: 0.2rem;
+}
+
+/* Advisor Section CSS End */
+
+/* ============================= */
+/* About Page Responsive CSS */
+/* ============================= */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  /* Nav Css */
+  .logo img {
+    max-width: 8rem;
+  }
+  .about-hero-img {
+    padding-bottom: 5rem;
+  }
+  .about-hero-content {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .about-hero-content h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 0;
+  }
+  .about-wrapper {
+    max-width: 90%;
+    padding: 5rem 3rem;
+    margin-top: -22rem;
+  }
+  #Advisor {
+    padding: 2rem 0;
+  }
+  .advisor-card:first-child {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    max-width: 9rem;
+  }
+  .about-hero-content {
+    padding-left: 3rem;
+  }
+  .about-hero-content h1 {
+    font-size: 4rem;
+  }
+  .about-wrapper {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-wrapper {
+    max-width: 80%;
+  }
+}
+@media (min-width: 1415px) {
+  .about-hero-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+  section#About-hero {
+    padding-top: 25rem;
+    padding-bottom: 32rem;
+  }
+  .about-wrapper {
+    padding: 8rem 8rem;
+    margin-top: -16rem;
+  }
+  #Advisor {
+    padding: 5rem 0rem;
+  }
+}

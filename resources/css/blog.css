@@ -1,0 +1,297 @@
+/* Base CSS Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #fff;
+
+}
+
+/* Adding Fonts */
+
+/* Sailec Font */
+
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecLight.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecRegular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecMedium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Sailec;
+  src: url(/resources/fonts/SailecBold.otf);
+  font-weight: 700;
+}
+
+/* Graphik Font */
+
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikLight.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikRegular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikMedium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikSemibold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Graphik;
+  src: url(/resources/fonts/GraphikBold.otf);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+}
+
+/* Base Style End */
+
+/* Header Section CSS Start */
+
+.header-wrapper {
+  background-image: url(/resources/images/blog-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a.login-btn {
+  background: #af39c7;
+  color: #fff !important;
+  font-weight: 300 !important;
+  padding: 1.1rem 2.7rem;
+  margin-left: 18rem;
+  border-radius: 2.5rem;
+  transition: all 250ms;
+}
+a.login-btn:hover {
+  opacity: 0.8;
+}
+a.login-btn {
+  margin-left: 0;
+}
+
+/* Header Section CSS End */
+
+/* Blog Hero Section CSS Start */
+
+section#Blog-hero {
+  padding-top: 17rem;
+  padding-bottom: 9rem;
+}
+
+.blog-hero-content h1 {
+  font-family: "Sailec";
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.blog-hero-img {
+  max-width: 65%;
+  margin: auto;
+}
+
+/* Blog Hero Section CSS End */
+
+/* Blog Section CSS Start */
+
+section#Blog {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+.blog-title h2 {
+  font-family: "Sailec";
+  font-weight: 600;
+  font-size: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+hr.blog-line {
+  color: #000000;
+  position: relative;
+  margin-top: 5rem;
+}
+.blog-date {
+  position: relative;
+  width: 12rem;
+  background: white;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: -4.6rem;
+  margin-left: 8rem;
+  border-top: 1px solid #5c5858;
+  border-left: 1px solid #5c5858;
+  border-right: 1px solid #5c5858;
+  border-radius: 0.6rem 0.6rem 0 0;
+  z-index: 1;
+}
+.blog-date::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: white;
+  top: 3px;
+  left: 0;
+  z-index: -1;
+}
+.blog-date p {
+  font-family: "Graphik";
+  color: #383848;
+}
+.blog-content {
+  padding-left: 8rem;
+}
+.blog-content h2 {
+  font-family: "Sailec";
+  color: #191c39;
+  padding-right: 10rem;
+}
+
+.blog-content p {
+  font-family: "Graphik";
+  color: #2d3740;
+  font-weight: 300;
+  padding-top: 0.6rem;
+}
+
+.blog-btn a {
+  font-family: "Sailec";
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #2d3740;
+}
+
+.blog-btn a i {
+  font-size: 2rem;
+  color: #2d3740 !important;
+  padding-left: 0.5rem;
+  margin-top: -0.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.blog-btn:hover.blog-btn a i {
+  padding-left: 1.2rem;
+}
+
+/* Blog Section CSS End */
+
+/* ============================= */
+/* Blog Page Responsive CSS */
+/* ============================= */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  /* Nav Css */
+  .logo img {
+    max-width: 8rem;
+  }
+  .blog-hero-img {
+    padding-bottom: 5rem;
+  }
+  .blog-hero-content {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .blog-hero-content h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 0;
+  }
+  .blog-content {
+    padding-left: 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .blog-img{
+    width: 60% !important;
+    min-width: 250px;
+    margin: auto;
+}
+  .blog-img img{
+    width: 60% !important;
+    min-width: 250px;
+}
+  .blog-date {
+    margin-left: 40%;
+  }
+  section#Blog {
+    text-align: center;
+  }
+  .blog-content h2 {
+    padding-right: 0rem;
+  }
+  .blog-btn a {
+    display: block !important;
+    margin-top: -1rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+  .blog-date {
+    margin-left: 35%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    max-width: 9rem;
+  }
+  .blog-hero-content {
+    padding-left: 3rem;
+  }
+  .blog-hero-content h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1480px) {
+  .blog-hero-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+  section#Blog-hero {
+    padding-bottom: 28rem;
+  }
+}
