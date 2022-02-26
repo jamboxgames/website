@@ -89,7 +89,7 @@ p {
 /* Header Section CSS Start */
 
 .header-wrapper {
-  background-image: url(/resources/images/arena-bg.png);
+  background-image: url(/resources/images/arena-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
