@@ -79,34 +79,6 @@ og_image: og-career.jpg
 
     <!-- Career Open Section End -->
 
-    <!-- Career Closed Section Start -->
-
-    <section id="Career-closed">
-      <div class="container">
-        <div class="career-title">
-          <h2>Closed</h2>
-        </div>
-        <div class="career-grid">
-          {%- for post in collections.jobs | reverse -%} 
-            {% if "closed" in post.data.status %}
-              <a href="{{ post.url | url }}">
-                <div class="career-open-box">
-                  <span class="span-orange"></span>
-                  <h5>Team: {{ post.data.team }}</h5>
-                  <h3>{{ post.data.title }}</h3>
-                  <div class="career-location">
-                    <i class="bi bi-geo-alt-fill"></i>
-                    <p>{{ post.data.location }}</p>
-                  </div>
-                </div>
-              </a>
-            {% endif %}
-          {%- endfor -%}
-        </div>
-      </div>
-    </section>
-
-    <!-- Career Closed Section End -->
 
     {% include 'partials/footer.njk' %}
 

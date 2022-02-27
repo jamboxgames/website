@@ -13,11 +13,7 @@ status: open
 location: Ho Chi Minh, Jakarta or Remote (Anywhere)
 ---
 
-<<<<<<< HEAD
 # About
-=======
-## About
->>>>>>> 68113e959a012bfd08bc148d01d051c64a1dca02
 
 This is a fantastic opportunity to deliver game changing products for game developers. You will be directly involved in building the business through new partnerships with talented game developers and studios, driving adoption of our tech platform and SDK with game developers and bringing new games to Jambox Platform
 
