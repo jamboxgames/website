@@ -132,6 +132,8 @@
     position: relative;
     top: 200px;
     height: auto;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .footer-wrapper {

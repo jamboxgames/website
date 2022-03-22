@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'partials/header.njk' %}
+
+    <!-- About CSS -->
+    <link rel="stylesheet" href="/resources/css/terms.css" />
+    
+  </head>
+  <body>
+
+    <header class="header">
+        <div class="header-wrapper">
+          {% include 'partials/nav.njk' %}
+  
+        </div>
+      </header>
+
+
+    <div class="container">
+      <section id="privacy-policy">
+      {{ content | safe }}
+      </section>
+    </div>
+
+
+
+  {% include 'partials/footer.njk' %}
+
+
+    <!-- Bootstrap JS -->
+    <script src="/resources/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/resources/js/custom.js"></script>
+
+
+    </body>
+    </html>
