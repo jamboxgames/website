@@ -937,3 +937,14 @@ pubmatic.com, 158112, RESELLER, 5d62403b186f2ace
 pubmatic.com, 92509, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 13856, RESELLER, 0bfd66d529a55807
 smartadserver.com, 1692, RESELLER
+pokkt.com, 7139, RESELLER, c45702d9311e25fd
+appads.in, 107139, RESELLER
+bigo.sg, 130, RESELLER
+ignitemediatech.com, pub_61122, RESELLER
+admanmedia.com, 894, RESELLER
+criteo.com, B-063105, RESELLER, 9fac4a4a87c2a44
+bigo.sg, 128, RESELLER
+ignitemediatech.com, pub_61118, RESELLER
+pubnative.net, 1007334, RESELLER, d641df8625486a7b
+webeyemob.com, 70098, RESELLER
+indexexchange.com, 198417, RESELLER, 50b1c356f2c5c8fc
