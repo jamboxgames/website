@@ -823,3 +823,18 @@ webeyemob.com, 70098, RESELLER
 indexexchange.com, 198417, RESELLER, 50b1c356f2c5c8fc
 criteo.com, B-063105, RESELLER, 9fac4a4a87c2a44f
 synacor.com, 82460, RESELLER, e108f11b2cdf7d5b
+Verve.com, 15503, RESELLER, 0c8f5958fc2d6270
+
+Rubiconproject.com, 15278, RESELLER, 0bfd66d529a55807
+
+Pubmatic.com, 155975, RESELLER, 5d62403b186f2ace
+
+Contextweb.com, 561884, RESELLER, 89ff185a4c4e857c
+
+Inmobi.com, c1e6d3502da64ebaa3ad0e4a4be15f11, RESELLER, 83e75a7ae333ca9d
+
+Pubmatic.com, 156517, RESELLER, 5d62403b186f2ace
+
+Sabio.us, 100032, RESELLER, 96ed93aaa9795702
+
+Contextweb.com, 561849, RESELLER, 89ff185a4c4e857c
