@@ -948,3 +948,4 @@ ignitemediatech.com, pub_61118, RESELLER
 pubnative.net, 1007334, RESELLER, d641df8625486a7b
 webeyemob.com, 70098, RESELLER
 indexexchange.com, 198417, RESELLER, 50b1c356f2c5c8fc
+criteo.com, B-063105, RESELLER, 9fac4a4a87c2a44f
