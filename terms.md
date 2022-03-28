@@ -55,7 +55,7 @@ WHEREAS, the Client wishes to subscribe to the Software of the Company;
  
 2.7. There shall be a free trial period of 30 days and the Platform Fees shall be charged post the expiration of the trial period.
  
-2.8. The details of the Subscription Fees are listed in Schedule A - Executed Order Form, attached to the present Agreement.
+2.8. The details of the Subscription Fees are listed in Schedule A - Executed Order Form which will be signed by both parties before the end of the trial period and be attached to the present Agreement.
 
 2,9. The Subscription Fees shall be paid in advance. The details of the advance payments are also listed in “Schedule A,” attached to the present Agreement.
 
@@ -229,7 +229,7 @@ WHEREAS, the Client wishes to subscribe to the Software of the Company;
 
 10.1. The present Agreement shall be effective for a period of Thirty Six months (36) months and shall be automatically renewed at the end of the thirty six (36) months’ period if the Client does not provide a notice of at least 30 days prior to the expiration
 
-10.2. Either party may terminate the contract with a notice period of Sixty (60) days.
+10.2. Either party may terminate the contract with a notice period of Sixty (30) days.
 
 10.3. Suspension for Ongoing Harm: The Company reserves the right to suspend delivery of the Services if the Company reasonably concludes that the Client or an Authorized User’s use of the Services is causing immediate and ongoing harm to the Company or others. In the extraordinary case that the Company must suspend delivery of the SaaS Services, the Company shall immediately notify the Client of the suspension and the parties shall diligently attempt to resolve the issue. The Company shall not be liable to the Client or to any third party for any liabilities, claims or expenses arising from or relating to any suspension of the SaaS Services in accordance with this section.
 
