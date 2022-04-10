@@ -86,8 +86,12 @@
     font-size: 1.6rem;
 }
   
-  ul li {
+  /* ul li {
     list-style: none;
+  } */
+
+  li {
+    font-size: 1.4rem;
   }
   
   img {
