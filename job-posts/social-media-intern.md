@@ -9,7 +9,7 @@ tags:
 
 layout: layouts/career-post.njk
 team: Marketing
-status: open
+status: closed
 location: Remote
 ---
 # What you will be doing
