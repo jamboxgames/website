@@ -579,7 +579,6 @@ xad.com, 1190, RESELLER, 81cbf0a75a5e0e9a
 smartadserver.com, 3564, RESELLER
 indexexchange.com, 184738, RESELLER
 freewheel.tv, 1158193, RESELLER
-facebook.com, 2892913207608968, RESELLER, c3e20eee3f780d68
 ironsrc.com,312674, Direct
 fyber.com,215542, DIRECT
 adcolony.com, 3dcf9f51638afe2c, RESELLER, 1ad675c9de6b5176
