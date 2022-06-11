@@ -1036,3 +1036,5 @@ contextweb.com, 562499, RESELLER, 89ff185a4c4e857c
 criteo.com, B-057955, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-057601, RESELLER, 9fac4a4a87c2a44f
 meitu.com, 282, RESELLER
+facebook.com, 1915777362144821, RESELLER, c3e20eee3f780d68
+facebook.com, 832186891076143, RESELLER, c3e20eee3f780d68
