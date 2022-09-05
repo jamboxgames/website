@@ -1031,3 +1031,5 @@ appnexus.com, 13227, RESELLER
 e-planning.net, 7fd99c56106cb0d7, RESELLER, c1ba615865ed87b2
 google.com, pub-8129348556359650, RESELLER, f08c47fec0942fa0
 ludus.vc, 5186364160, DIRECT
+pangleglobal.com, 80309, DIRECT
+pubmatic.com, 161490, RESELLER, 5d62403b186f2ace
