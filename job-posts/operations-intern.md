@@ -9,7 +9,7 @@ tags:
 
 layout: layouts/career-post.njk
 team: Growth
-status: closed
+status: Open
 location: Remote
 ---
 
