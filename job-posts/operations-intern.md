@@ -39,7 +39,9 @@ Provide a Foundation for your Operations and Customer Relations Career. At Jambo
 
 You will get to interact and work directly with our senior members who have stellar careers.
 
-You will interface with Clients and our Product & Tech Teams. 
+You will interface with Clients and our kick-ass Product & Tech Teams. 
+
+Fun-Friday every Fridays (your favourite food and drinks are on the house)
 
 **PS**
 If a few terms here seem new, please Google them. We love self-learning, let us know what you learned.
