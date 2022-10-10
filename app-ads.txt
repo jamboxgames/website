@@ -1206,3 +1206,22 @@ pubnative.net,1007303,RESELLER,d641df8625486a7b
 pubnative.net,1008061,RESELLER,d641df8625486a7b
 inmobi.com,6cc71dd159864641a03ce0c8792d801f,RESELLER,83e75a7ae333ca9d
 facebook.com, 2892913207608968, DIRECT, c3e20eee3f780d68
+singularads.com, 895023, RESELLER
+brightcom.com, 20372, RESELLER
+smartadserver.com, 4444, RESELLER, 060d053dcf45cbf3
+triplelift.com, 12613, RESELLER, 6c33edb13117fd86
+rubiconproject.com, 24864, RESELLER, 0bfd66d529a55807
+yahoo.com, 59974, RESELLER, e1a5b5b6e3255540
+smartadserver.com, 4190, RESELLER
+video.unrulymedia.com, 2391364207059630995, RESELLER
+yahoo.com, 59907, RESELLER, e1a5b5b6e3255540
+xandr.com, 13799, RESELLER
+appnexus.com, 13698, RESELLER, f5ab79cb980f11d1
+inmobi.com, 2ce1d976516340a49b12e59749659864, RESELLER, 83e75a7ae333ca9d
+yahoo.com, 60010, RESELLER, e1a5b5b6e3255540
+video.unrulymedia.com, 170071695, RESELLER
+yahoo.com, 59961, RESELLER, e1a5b5b6e3255540
+openx.com, 540274407, RESELLER, 6a698e2ec38604c6
+openx.com, 540031703, RESELLER, 6a698e2ec38604c6
+rubiconproject.com, 24752, RESELLER, 0bfd66d529a55807
+ssp.e-volution.ai, AJxF6R111a9M6CaTvK, RESELLER
