@@ -1228,3 +1228,7 @@ ssp.e-volution.ai, AJxF6R111a9M6CaTvK, RESELLER
 google.com, pub-8129348556359650, RESELLER, f08c47fec0942fa0
 potensus.com, 5186364160, DIRECT
 media.net, 8CU5NC283, RESELLER
+google.com, pub-8129348556359650, RESELLER, f08c47fec0942fa0
+potensus.com, 5186364160, DIRECT
+media.net, 8CU5NC283, RESELLER
+adingo.jp, 28793, RESELLER
