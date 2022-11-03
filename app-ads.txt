@@ -978,8 +978,6 @@ facebook.com, 2830170547277804, RESELLER, c3e20eee3f780d68
 facebook.com, 601206411328332, RESELLER, c3e20eee3f780d68
 betweendigital.com, 44077, RESELLER
 media.net, 8CUNEOK3R, RESELLER
-google.com, pub-8129348556359650, RESELLER
-ludus.vc, 5186364160, DIRECT
 sonobi.com, 2b51f34067, RESELLER, d1a215d9eb5aee9e
 themediagrid.com, NG9STC, RESELLER, 35d5010d7789b49d
 video.unrulymedia.com, 3383599585, RESELLER
