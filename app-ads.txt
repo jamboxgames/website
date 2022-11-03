@@ -33,6 +33,7 @@ freewheel.tv, 1235279, RESELLER
 openx.com, 540866936, RESELLER, 6a698e2ec38604c6
 yieldmo.com, 2807970144171533194, RESELLER
 xandr.com, 8804, RESELLER, f5ab79cb980f11d1
+potensus.com, 5186364160, DIRECT
 criteo.com, B-063105, RESELLER, 9fac4a4a87c2a44f
 indexexchange.com, 191497, RESELLER
 sonobi.com, 7b37f8ccbc, RESELLER, d1a215d9eb5aee9e
