@@ -1,9 +1,9 @@
 ---
 permalink: "terms/index.html"
 layout: layouts/policy.njk
-title: Terms And Conditionss
+title: Jambox Arena Software Services Agreement
 ---
-# Terms
+# Jambox Arena Software Services Agreement
 This Software License Agreement (the “Agreement”) is effective March 22nd, 2022
 
 Please read these Standard Terms of Use (“Terms”) carefully. By using the Service (defined below) or signing up for an account, you’re agreeing to these Terms, which will result in a legal agreement between you and**Jambox Games Pte Ltd**(the "Company"), a company organized and existing under the laws of the Singapore with its head office located at 68 CIRCULAR ROAD #02-01, SINGAPORE (049422)
