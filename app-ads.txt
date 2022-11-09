@@ -1250,3 +1250,37 @@ smartadserver.com, 4012, DIRECT, 060d053dcf45cbf3 #EUR
 smartadserver.com, 4071, DIRECT, 060d053dcf45cbf3 #USD
 smartadserver.com, 4073, DIRECT, 060d053dcf45cbf3 #BRL
 smartadserver.com, 4074, DIRECT, 060d053dcf45cbf3 #MXN
+
+showheroes.com, 6016, RESELLER
+9dotsmedia.com, 1182, RESELLER, 45ff185b4c4e857d
+Bridgeupp.com, 14725, RESELLER
+carbonatix.com, 164931029, RESELLER
+krushmedia.com, AJxF6R43a9M6CaTvK, RESELLER
+connekt.ai, 8271873578, RESELLER
+pubmatic.com, 159950, RESELLER, 5d62403b186f2ace
+smartadserver.com, 4450, RESELLER, 060d053dcf45cbf3
+sharethrough.com, jXk2TGan, RESELLER, d53b998a7bd4ecd2
+video.unrulymedia.com, 3546235576327737409, RESELLER
+improvedigital.com, 1225, RESELLER
+openx.com, 540857594, RESELLER, 6a698e2ec38604c6
+appnexus.com, 12366, RESELLER, f5ab79cb980f11d1
+pubmatic.com, 161332, RESELLER, 5d62403b186f2ace
+yahoo.com, 59080, RESELLER
+sharethrough.com, mOXxxN1J, RESELLER, d53b998a7bd4ecd2
+contextweb.com, 562824, RESELLER, 89ff185a4c4e857c
+openx.com, 540659099, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 162528, RESELLER, 5d62403b186f2ace
+smartadserver.com, 4483, RESELLER
+improvedigital.com, 1785, RESELLER
+video.unrulymedia.com, 1738113756, RESELLER
+rhythmone.com, 1738113756, RESELLER, a670c89d4a324e47
+triplelift.com, 11656, RESELLER, 6c33edb13117fd86
+conversantmedia.com, 100432, RESELLER, 03113cd04947736d
+video.unrulymedia.com, 8130871856725242222, RESELLER
+minutemedia.com, 01gfrm8awkmq, RESELLER
+triplelift.com, 12908, RESELLER, 6c33edb13117fd86
+aralego.com, par-AA7D2439924BA478C7D72D8D2DE9244, RESELLER
+sharethrough.com, K5WDGAsP, RESELLER, d53b998a7bd4ecd2
+Contextweb.com, 562794, RESELLER, 89ff185a4c4e857c
+yahoo.com, 59669, RESELLER, e1a5b5b6e3255540
+conversantmedia.com, 42094, RESELLER, 03113cd04947736d
