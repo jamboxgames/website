@@ -1250,7 +1250,6 @@ smartadserver.com, 4012, DIRECT, 060d053dcf45cbf3 #EUR
 smartadserver.com, 4071, DIRECT, 060d053dcf45cbf3 #USD
 smartadserver.com, 4073, DIRECT, 060d053dcf45cbf3 #BRL
 smartadserver.com, 4074, DIRECT, 060d053dcf45cbf3 #MXN
-
 showheroes.com, 6016, RESELLER
 9dotsmedia.com, 1182, RESELLER, 45ff185b4c4e857d
 Bridgeupp.com, 14725, RESELLER
@@ -1284,3 +1283,16 @@ sharethrough.com, K5WDGAsP, RESELLER, d53b998a7bd4ecd2
 Contextweb.com, 562794, RESELLER, 89ff185a4c4e857c
 yahoo.com, 59669, RESELLER, e1a5b5b6e3255540
 conversantmedia.com, 42094, RESELLER, 03113cd04947736d
+appnexus.com, 14077, RESELLER
+pubmatic.com, 162195, RESELLER
+rhebus.works, 3370572591, RESELLER
+sharethrough.com, 6qlnf8SY, RESELLER
+smartclip.net, 12358, RESELLER
+smartclip.net, 12422, RESELLER
+smartstream.tv, 667, RESELLER
+thebrave.io, 1234585, RESELLER
+triplelift.com, 11656, RESELLER
+triplelift.com, 12456, RESELLER
+video.unrulymedia.com, 7823643795310613975, RESELLER
+VideoHeroes.tv, 212504, RESELLER
+xad.com, 556, RESELLER
