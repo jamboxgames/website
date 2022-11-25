@@ -2,7 +2,7 @@
 title: Operations Executive
 date: 2022-01-20
 
-myslug: ops-intern
+myslug: ops-executive
 
 tags:
   - jobs
