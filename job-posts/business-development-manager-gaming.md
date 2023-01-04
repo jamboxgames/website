@@ -9,7 +9,7 @@ tags:
   
 layout: layouts/career-post.njk
 team: Publishing
-status: open
+status: close
 location: Ho Chi Minh, Jakarta or Remote (Anywhere)
 ---
 
