@@ -1658,3 +1658,4 @@ conversantmedia.com, 100264, RESELLER, 03113cd04947736d
 opera.com, pub5296098761088, RESELLER, 55a0c5fd61378de3
 video.unrulymedia.com, 6694405583287859332, RESELLER
 rubiconproject.com, 25022, RESELLER, 0bfd66d529a55807
+themonetizr.com, bbd8470b-2bba-4d29-82e2-dfffcd69593d , DIRECT,  8694fd260e19adf9
