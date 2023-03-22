@@ -1725,3 +1725,34 @@ pubmatic.com, 162518, RESELLER, 5d62403b186f2ace
 pubmatic.com, 162520, RESELLER, 5d62403b186f2ace
 xandr.com, 13167, RESELLER
 triplelift.com, 12210, RESELLER, 6c33edb13117fd86
+pubmatic.com, 163063, RESELLER, 5d62403b186f2ace
+adview.com, 53218885, RESELLER, 1b2cc038a11ea319
+loopme.com, 11561, RESELLER, 6c8d5f95897a5a3b
+smartadserver.com, 4232, RESELLER
+inmobi.com, 7f1234e2a50f4aaaac5a4bf2f0b62ac1, RESELLER, 83e75a7ae333ca9d
+pubmatic.com, 162974, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 23844, RESELLER
+smartadserver.com, 4578, RESELLER, 060d053dcf45cbf3
+consumable.com, 2001467, RESELLER, aefcd3d2f45b5070
+opera.com, pub7507776842240, RESELLER, 55a0c5fd61378de3
+smartadserver.com, 4279, RESELLER
+opera.com, pub5479493704320, RESELLER, 55a0c5fd61378de3
+adcolony.com, f5e40265723efb01, RESELLER, 1ad675c9de6b5176
+smartadserver.com, 4330, RESELLER
+sonobi.com, c5e9ff8391, RESELLER, d1a215d9eb5aee9e
+consumable.com, 2001470, RESELLER, aefcd3d2f45b5070
+pubmatic.com, 162519, RESELLER, 5d62403b186f2ace
+smartadserver.com, 4490, RESELLER, 060d053dcf45cbf3
+Contextweb.com, 562885, RESELLER, 89ff185a4c4e857c
+contextweb.com, 562867, RESELLER, 89ff185a4c4e857c
+openx.com, 540556847, RESELLER, 6a698e2ec38604c6
+contextweb.com, 562930, RESELLER, 89ff185a4c4e857c
+video.unrulymedia.com, 8167205979129043832, RESELLER
+freewheel.tv, 1585652, RESELLER
+freewheel.tv, 1585681, RESELLER
+smartclip.net, 14275, RESELLER
+criteo.com, B-057702, RESELLER, 9fac4a4a87c2a44f
+themediagrid.com, N23GK6, RESELLER, 35d5010d7789b49d
+improvedigital.com, 1805, RESELLER
+criteo.com, B-064322, RESELLER, 9fac4a4a87c2a44f
+appnexus.com, 9684, RESELLER, f5ab79cb980f11d1
