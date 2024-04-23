@@ -2392,3 +2392,4 @@ sharethrough.com, sWxCFjI8, RESELLER, d53b998a7bd4ecd2
 chocolateplatform.com, 20061, RESELLER
 smartadserver.com, 4395, RESELLER, 060d053dcf45cbf3
 pubmatic.com, 160888, RESELLER, 5d62403b186f2ace
+facebook.com, 1546649435892665, RESELLER, c3e20eee3f780d68
