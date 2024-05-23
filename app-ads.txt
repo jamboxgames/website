@@ -25,6 +25,7 @@ smartadserver.com, 3713, RESELLER
 axonix.com, 57869, RESELLER
 conversantmedia.com, 100308, RESELLER, 03113cd04947736d
 adform.com, 2671, RESELLER
+
 freewheel.tv, 1235183, RESELLER
 freewheel.tv, 1235279, RESELLER
 yieldmo.com, 2807970144171533194, RESELLER
@@ -2642,3 +2643,4 @@ thebrave.io, 1234633, RESELLER, c25b2154543746ac
 video.unrulymedia.com, 169764768, RESELLER
 video.unrulymedia.com, 322585001, RESELLER
 zmaticoo.com, 5135655, RESELLER
+facebook.com, 816937123220880, DIRECT, c3e20eee3f780d68
