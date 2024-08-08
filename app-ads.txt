@@ -2207,3 +2207,5 @@ conversantmedia.com, 41996, RESELLER, 03113cd04947736d
 iqzone.com, IQ288, RESELLER
 152media.info, 152M68, RESELLER
 openx.com, 541015801, RESELLER, 6a698e2ec38604c6
+pubwise.io, 22376824, DIRECT, c327c91a93a7cdd3
+pubmatic.com, 164282, RESELLER, 5d62403b186f2ace
