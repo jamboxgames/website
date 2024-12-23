@@ -2623,3 +2623,41 @@ adyoulike.com, 4d5014f8da11fc0a70ebbda5d4537935, RESELLER
 rixengine.com, 36730, RESELLER
 appnexus.com, 16796, RESELLER, f5ab79cb980f11d1
 x.adprime.com, AJxF6R36a9M6CaTvK, RESELLER
+mediayo.ai, AJxF6R15a9M6CaTvK, RESELLER
+appnexus.com, 16929, RESELLER, f5ab79cb980f11d1
+xandr.com, 16929, RESELLER, f5ab79cb980f11d1
+conversantmedia.com, 100867, RESELLER, 03113cd04947736d
+video.unrulymedia.com, 207645716, RESELLER
+loopme.com, 14005, RESELLER, 6c8d5f95897a5a3b
+krushmedia.com, AJxF6R658a9M6CaTvK, RESELLER
+adyoulike.com, 9b11b945466734daf080ea52ac771ff3, RESELLER
+smartadserver.com, 5276, RESELLER, 060d053dcf45cbf3
+contextweb.com, 563601, RESELLER, 89ff185a4c4e857c
+triplelift.com, 13907, RESELLER, 6c33edb13117fd86
+sharethrough.com, veuioj8F, RESELLER, d53b998a7bd4ecd2
+conversantmedia.com, 100457, RESELLER, 03113cd04947736d
+e-planning.net, 864690bcd16cd011, RESELLER, c1ba615865ed87b2
+loopme.com, 11347, RESELLER, 6c8d5f95897a5a3b
+onairglobal.com, 4357629, RESELLER
+openx.com, 540396775, RESELLER, 6a698e2ec38604c6
+prequel.tv, 514, RESELLER
+rhebus.works, 4962256775, RESELLER
+saharmedia.net, 1683858, RESELLER
+silvermob.com, 419, RESELLER
+triplelift.com, 10223, RESELLER, 6c33edb13117fd86
+spinx.biz, 1373698863, RESELLER
+video.unrulymedia.com, 3634565696, RESELLER, 6f752381ad5ec0e5
+iion.io, 10162, RESELLER
+zmaticoo.com, 5135063, RESELLER
+opera.com, pub6148735850944, RESELLER, 55a0c5fd61378de3
+lijit.com, 535224, RESELLER, fafdf38b16bf6b2b
+appnexus.com, 14228, RESELLER
+improvedigital.com, 2498, RESELLER
+lijit.com, 533827, RESELLER, fafdf38b16bf6b2b #SOVRN
+themediagrid.com, IOY14K, RESELLER, 35d5010d7789b49d
+lijit.com, 527867, RESELLER, fafdf38b16bf6b2b
+conversantmedia.com, 100859, RESELLER, 03113cd04947736d
+contextweb.com, 563584, RESELLER, 89ff185a4c4e857c
+contextweb.com, 563573, RESELLER, 89ff185a4c4e857c
+media.net, 8CUKO1FI7, RESELLER
+sharethrough.com, DcvTh1MK, RESELLER, d53b998a7bd4ecd2
